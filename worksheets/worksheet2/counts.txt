@@ -1,0 +1,7 @@
+verified purchases
+line number  -  words number  -  bytes
+3105521 550169767 3244913556
+
+unverified purchases
+line number  -  words number  - bytes
+3105521 550169767 3244913556

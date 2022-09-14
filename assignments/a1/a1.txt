@@ -1,0 +1,158 @@
+Script started on 2022-09-14 01:07:44-04:00
+]0;obeda@sjsu:~/workplace/assignments[obeda@sjsu assignments]$ mkdir a1
+]0;obeda@sjsu:~/workplace/assignments[obeda@sjsu assignments]$ cd a1
+2.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ echo $HOME
+/home/obeda
+=> I found this command by checking the command "env"
+
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ env
+LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+SSH_CONNECTION=172.29.96.220 64323 172.31.197.164 22
+LANG=en_US.UTF-8
+HISTCONTROL=ignoredups
+HOSTNAME=sjsu.pub.pic2.ibm.com
+OLDPWD=/home/obeda/workplace/assignments
+which_declare=declare -f
+XDG_SESSION_ID=22471
+USER=obeda
+PWD=/home/obeda/workplace/assignments/a1
+HOME=/home/obeda
+SSH_CLIENT=172.29.96.220 64323 22
+SSH_TTY=/dev/pts/12
+MAIL=/var/spool/mail/obeda
+SHELL=/bin/bash
+TERM=xterm-256color
+SHLVL=2
+LOGNAME=obeda
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1031/bus
+XDG_RUNTIME_DIR=/run/user/1031
+PATH=/home/obeda/.local/bin:/home/obeda/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin
+HISTSIZE=1000
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+BASH_FUNC_which%%=() {  ( alias;
+ eval ${which_declare} ) | /usr/bin/which --tty-only --read-alias --read-functions --show-tilde --show-dot $@
+}
+_=/usr/bin/env
+
+3.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ echo $UID
+1031
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ groups
+obeda
+
+4.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ mkdir temp
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ chmod u-x temp
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ ls -l
+total 0
+drw-rwxr-x 2 obeda obeda 6 Sep 14 01:11 [0m[38;5;33mtemp[0m
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ cd temp
+bash: cd: temp: Permission denied
+=> No, I am not allowed to cd in the directory since I don't have the execute permission. 
+=> I am allowed to ls the directory since I still have read permission to it 
+=> I am now allowed to create files under it since I don't have the execute permission
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ cd[K[Kls temp
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ touch ./temp/tempfile.txt
+touch: cannot touch './temp/tempfile.txt': Permission denied
+
+5.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ mkdir temp2
+=> Yes, I am allowed to mv the directory to temp3, which will rename temp2 into temp3
+=> Yes, we are allowed to cp a directory 
+=> To cp an entire directory: cp -R directory_path_source  directory_path_destination
+
+6.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ ls /proc/ | grep mem
+io[01;31m[Kmem[m[K
+[01;31m[Kmem[m[Kinfo
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ ls /proc/ | grep cpu
+[01;31m[Kcpu[m[Kinfo
+=> "meminfo" file contains information about memory
+=> "cpuinfo" file contains information about the cpu's on my server
+
+7. 
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ head /proc/meminfo
+MemTotal:       73080640 kB
+MemFree:         2609856 kB
+MemAvailable:   60415360 kB
+Buffers:            4224 kB
+Cached:         59153664 kB
+SwapCached:         9856 kB
+Active:         57432768 kB
+Inactive:        2324096 kB
+Active(anon):     252672 kB
+Inactive(anon):   922624 kB
+=> Total memory in my server = 73080640KB
+
+8.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ head /proc/cpuinfo
+processor	: 0
+cpu		: POWER8 (architected), altivec supported
+clock		: 3525.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+
+processor	: 1
+cpu		: POWER8 (architected), altivec supported
+clock		: 3525.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ head /proc/cpuinfo[C[1P /proc/cpuinfo[1P /proc/cpuinfo[1P /proc/cpuinfo[1P /proc/cpuinfot /proc/cpuinfoa /proc/cpuinfoi /proc/cpuinfol /proc/cpuinfo
+processor	: 255
+cpu		: POWER8 (architected), altivec supported
+clock		: 3525.000000MHz
+revision	: 2.1 (pvr 004b 0201)
+
+timebase	: 512000000
+platform	: pSeries
+model		: IBM,8286-42A
+machine		: CHRP IBM,8286-42A
+MMU		: Hash
+=> Number of processor on my server: 255 processors
+=> The processor architecture name: POWER8 (Architected), altivec supported
+=> The processor speed in GHz = 3.525 GHz
+
+9.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ cp /home/test/A1/downloaded_hashtags_extend.csv .
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ ls
+downloaded_hashtags_extend.csv  [0m[38;5;33mtemp[0m  [38;5;33mtemp2[0m
+=> wc downloaded_hashtags_extend.csv
+=> Size = 0.007822 GB
+=> 110350 lines
+
+10.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ grep -i great downloaded_hashtags_extend.csv  | [K[K[K| wc
+     57     114    4582
+=> 114 hashtags
+
+11.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ file downloaded_hashtags_extend.csv 
+downloaded_hashtags_extend.csv: UTF-8 Unicode text
+=> UTF-8 Unicode
+
+12.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ iconvs[K[Kv -f UTF-8[K[K[K[K[Kutf-8 -t ascii//tranli[K[Kslit -o downloaded_hashtags_extend.csv [1@_[1@a[1@s[1@c[1@i[1@i[C[C[C[C[C d o w nloaded_hashtags_extend.csv 
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ iconv -f utf-8 -t ascii//translit -o downloaded_hashtags_extend_ascii.csv downloaded_hashtags_extend.csv [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[69Pfile[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@_[1@s[1P[1@a[1@s[1@c[1@i[1@i
+downloaded_hashtags_extend_ascii.csv: ASCII text
+
+13.
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ head -n 4 downloaded_hashtags_extend.csv 
+author,hashtags,date,id
+308045021,awesomepeopleontwitter,2022-04-30 23:18:45+00:00,1520543208614334465
+308045021,journalism,2022-04-30 20:40:18+00:00,1520503332246376448
+308045021,npr,2022-04-30 20:40:18+00:00,1520503332246376448
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ awk -F ',' ''{'}'p}'r}'i}'n}'t}' }'$}'1}'[C[C downloaded_hashtags_extend.csv | uniq | wc
+    362     362    5187
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ awk -F ',' '{print $1}' downloaded_hashtags_extend.csv | uniq | wc[1P[1@([1@)[1@N[1@F
+  66178   66178 1323543
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ awk -F ',' '{print $(NF)}' downloaded_hashtags_extend.csv | uniq | wc[C[1P[1P[1P[1P[1@2
+ 101804  101804 1113433
+
+=> 362 unique users
+=> 66178 unique tweets
+=> 101804 unique hashtags
+=> Number of hashtags is more than number of tweets
+
+]0;obeda@sjsu:~/workplace/assignments/a1[obeda@sjsu a1]$ exit
+
+Script done on 2022-09-14 01:24:01-04:00

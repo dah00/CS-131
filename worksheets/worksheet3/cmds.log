@@ -1,0 +1,743 @@
+    1  ls
+    2  passwd
+    3  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+    4  ls
+    5  mkdir worksheet1
+    6  cd worksheet1
+    7  ls
+    8  pwd
+    9  git init
+   10  git branch
+   11  git vi mytestfile
+   12  vi mytestfile
+   13  mv mytestfile mytestfile.txt
+   14  ls
+   15  git status
+   16  git add mytestfile.txt
+   17  git status
+   18  git commit -m "my first commit"
+   19  git status
+   20  ping 172.31.197164
+   21  ping 172.31.197.164
+   22  ls
+   23  cd worksheet1
+   24  ls
+   25  get status
+   26  git status
+   27  git commit -m "first commit"
+   28  git config --global user.email "obeda.velonjatovo@sjsu.edu"
+   29  git config --global user.name "Obeda Velonjatovo"
+   30  git config -user.email
+   31  git config --get user.email
+   32  git config --get user.name
+   33  git commit -m "first commit"
+   34  git remote add origin https://github.com/dah00/worksheet1.git
+   35  git status
+   36  git push -u origin master
+   37  git status
+   38  git push -u origin master
+   39  ls
+   40  history > cmds.log
+   41  ls
+   42  vi cmds.log
+   43  git status
+   44  git add cmd.log
+   45  git add cmds.log
+   46  git status
+   47  git push -u origin master
+   48  git status
+   49  git commit -m "commiting the history file cmds.log"
+   50  git push -u 
+   51  git status
+   52  git branch
+   53  ls
+   54  cat worksheet1
+   55  cd worksheet1
+   56  ls
+   57  mytestfile.txt
+   58  car mytestfile.txt
+   59  cat mytestfile.txt
+   60  cat cmds.log
+   61  more cmds.log 
+   62  less cmds.log 
+   63  ls
+   64  vi mytestfile.txt
+   65  cat mytestfile.txt
+   66  more mytestfile.txt
+   67  less mytestfile.txt 
+   68  head mytestfile.txt 
+   69  tail mytestfile.txt
+   70  tail -20 mytestfile.txt 
+   71  tail -7 mytestfile.txt 
+   72  head -13 mytestfile.txt 
+   73  which nano
+   74  cd ..
+   75  ls
+   76  ls -latr
+   77  ls
+   78  ls -lat
+   79  ls 
+   80  cd worksheet1
+   81  view worksheet1
+   82  ls
+   83  view worksheet1.txt
+   84  view mytestfile.txt
+   85  vim mytestfile.txt 
+   86  vi mytestfile.txt 
+   87  ls ?.txt
+   88  ls *.txt
+   89  ls
+   90  cd ..
+   91  ls
+   92  cd worksheet1
+   93  find ./ -type f -name "?????????.txt"
+   94  find ./ -type f -name "*.txt"
+   95  cd ..
+   96  ls
+   97  tar -cvf worksheet1.tar worksheet1
+   98  ls
+   99  ls -latr
+  100  ls -lat
+  101  rm worksheet1
+  102  rm -rf worksheet1
+  103  ls
+  104  rm -rf worksheet1.tar
+  105  ls
+  106  mkdir worksheet1
+  107  vi mytestfile1.txt
+  108  cat mytestfile1.txt 
+  109  ls
+  110  mkdir tempdir
+  111  cd tempdir
+  112  ls
+  113  touch file1.txt
+  114  ls
+  115  touch file2.txt
+  116  touch file3.txt
+  117  ls
+  118  ls -lat
+  119  tar cvf tarredTempDir.tar *.txt
+  120  las
+  121  ls -lat
+  122  tar tvf tarredTempDir.tar
+  123  ls -lat
+  124  tar xvf tarredTempDir.tar 
+  125  ls -lat
+  126  tar -xvf tarredTempDir.tar 
+  127  ls -lat
+  128  tar -zxvf tarredTempDir.tar 
+  129  gzip tarredTempDir.tar 
+  130  ls -lat
+  131  tar -zxvf tarredTempDir.tar.gz 
+  132  ls -lat
+  133  rm tarredTempDir.tar.gz 
+  134  ls -lat
+  135  cd ..
+  136  ls
+  137  rm tempdir/
+  138  rm tempdir
+  139  ls
+  140  rm /tempdir
+  141  rm -d tempdir
+  142  rm -rf tempdir
+  143  ls
+  144  grep --v
+  145   
+  146  man grep
+  147  man egrep
+  148  ls
+  149  cat mytestfile1.txt
+  150  wc mytestfile1.txt 
+  151  vi mytestfile1.txt 
+  152  cat mytestfile1.txt 
+  153  wc mytestfile1.txt 
+  154  echo `echo`
+  155  echo `pwd`
+  156  echo 'pwd'
+  157  echo "$pwd"
+  158  echo "$PWD"
+  159  a=1234
+  160  b = $a+1
+  161  b=$a+1
+  162  echo "$b"
+  163  b=$($a+1)
+  164  c=$($a+1)
+  165  c=$(($a+1))
+  166  echo "$c"
+  167  echo $PWD
+  168  path
+  169  echo $PATH
+  170  echo "pwd"
+  171  echo `PWD`
+  172  echo `pwd`
+  173  echo "$PWD"
+  174  a='abac'
+  175  b=${a}def
+  176  echo "$b"
+  177  env
+  178  echo $?
+  179  ls
+  180  cat cmds.log
+  181  exit
+  182  ls
+  183  tar -zxvf amazon_reviews_us_Books_v1_02.tsv.gz
+  184  exit
+  185  Gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+  186  ls
+  187  mkdir worksheet2
+  188  exit
+  189  ls
+  190  unzip amazon_reviews_us_Books_v1_02.tsv.gz -d worksheet2
+  191  cd worksheet2
+  192  ls
+  193  cd ..
+  194  cat amazon_reviews_us_Books_v1_02.tsv.gz 
+  195  ls
+  196  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  197  ls
+  198  rm amazon_reviews_us_Books_v1_02.tsv.gz.1
+  199  ls
+  200  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  201  ls
+  202  ls -altr
+  203  rm amazon_reviews_us_Books_v1_02.tsv.gz.1
+  204  ls
+  205  head amazon_reviews_us_Books_v1_02.tsv.gz 
+  206  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  207  head amazon_reviews_us_Books_v1_02.tsv.gz.1 
+  208  rm amazon_reviews_us_Books_v1_02.tsv.gz.1
+  209  head amazon_reviews_us_Books_v1_02.tsv.gz
+  210  exit
+  211  ls
+  212  gunzip amazon_reviews_us_Books_v1_02.tsv.gz -d worksheet2
+  213  ls
+  214  cd worksheet2
+  215  ls
+  216  cd ..
+  217  tar -zxvf amazon_reviews_us_Books_v1_02.tsv.gz -d worksheet2
+  218  gzip amazon_reviews_us_Books_v1_02.tsv.gz -d worksheet2
+  219  ls
+  220  worksheet2
+  221  head amazon_reviews_us_Books_v1_02.tsv 
+  222  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  223  man grep
+  224  grep -n verified amazon_reviews_us_Books_v1_02.tsv 
+  225  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  226  ls
+  227  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  228  ls
+  229  rm amazon_reviews_us_Books_v1_02.tsv
+  230  ls
+  231  gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+  232  ls
+  233  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  234  man grep 
+  235  mkdir a1
+  236  cd a1
+  237  env
+  238  echo $UID
+  239  man UID
+  240  man uid
+  241  echo $GID
+  242  gid
+  243  whomai
+  244  id -g
+  245  man chmod
+  246  id -u
+  247  mkdir temp
+  248  man chmod
+  249  ls -latr
+  250  lll
+  251  ls -l
+  252  chmod u-x temp
+  253  ls -l
+  254  cd temp
+  255  ls temp
+  256  ls -d temp
+  257  ls -l temp
+  258  mkfile ./temp
+  259  cd ..
+  260  mkfile ./worksheet1
+  261  mkfile ./worksheet1/test.txt
+  262  touch ./worksheet1/test.txt
+  263  cd worksheet1
+  264  ls
+  265  rm -f test.txt
+  266  ls
+  267  cd ..
+  268  cd worksheet2
+  269  touch ./temp/tempfile.txt
+  270  ls -l temp
+  271  cd ..
+  272  ls temp
+  273  ls worksheet2
+  274  ls -l worksheet2
+  275  ls -latr worksheet2
+  276  ls -lat worksheet2
+  277  cd worksheet2
+  278  ls -lat temp
+  279  ls -l temp
+  280  touch ./temp/tempfile.txt
+  281  ls
+  282  cd a1
+  283  ls
+  284  mkdir temp2
+  285  mv temp2 temp3
+  286  ls
+  287  exit
+  288  ls
+  289  cd worksheet2
+  290  ls
+  291  cd ..
+  292  head -n amazon_reviews_us_Books_v1_02.tsv 
+  293  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  294  head -n 1 amazon_reviews_us_Books_v1_02.tsv 
+  295  head -n 3 amazon_reviews_us_Books_v1_02.tsv 
+  296  cat /etc/pwd
+  297  cat /etc/passwd
+  298  man awk
+  299  head -n  amazon_reviews_us_Books_v1_02.tsv 
+  300  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  301  awk -F "\t" '/\tY\t/'amazo_reviews_us_Books_v1_02.tsv
+  302  ls
+  303  awk -F "\t" '\tY\t' amazon_reviews_us_Books_v1_02.tsv 
+  304  awk -F "\t" '/\tY\t/' amazon_reviews_us_Books_v1_02.tsv 
+  305  awk -F "\t" '/\tY\t/' amazon_reviews_us_Books_v1_02.tsv  | uniq
+  306  awk -F "\t" '/\tY\t/' amazon_reviews_us_Books_v1_02.tsv  | head -n 10
+  307  awk -F "\t" '/\tY\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 10
+  308  awk -F "\t" '/\tY\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 15
+  309  awk -F "\t" '/\tY\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  310  awk '/\tY\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  311  awk -F "\t" '/\tY\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  312  awk -F "\t" '/\tY\t/ {print}' amazon_reviews_us_Books_v1_02.tsv  | head -n 5
+  313  awk -F "\t" '/\tN\t/ {print}' amazon_reviews_us_Books_v1_02.tsv  | head -n 5
+  314  awk -F "\t" '/\tN\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  315  man awk
+  316  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  317  awk -F "\t" '$12="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  318  awk -F "\t" '$12="N" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  319  awk -F "\t" '$12="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 40
+  320  awk -F "\t" '$11="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 40
+  321  awk -F "\t" '$12="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 40
+  322  awk -F "\t" '$12="N" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 40
+  323  awk -F "\t" '$12="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | wc
+  324  awk -F "\t" '$12="N" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | wc
+  325  wc amazon_reviews_us_Books_v1_02.tsv 
+  326  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv  | wc
+  327  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv | head -n 30
+  328  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv | wc
+  329  exit
+  330  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc
+  331  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | wc
+  332  wc amazon_reviews_us_Books_v1_02.tsv 
+  333  man grep
+  334  egrep -P "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  335  egrep -P "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  336  egrep -P '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  337  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | less -n 20
+  338  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | less -N 20
+  339  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | less -20
+  340  awk -F "\t" '$12="Y" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | less -20
+  341  awk -F "\t" '$12=Y {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | wc
+  342  awk -F "\t" '$12=Y {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  343  awk -F "\t" '$12="Y" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  344  exit
+  345  awk -F "\t" '$12="Y" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  346  awk -F "\t" '$12=Y {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  347  awk -F "\t" '$12="Y" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  348  awk -F "\t" '$12="N" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  349  awk -F "\t" '$12="N" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | wc
+  350  exit 
+  351  ls
+  352  rm -f amazon_reviews_us_Books_v1_02.tsv 
+  353  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  354  gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+  355  ls
+  356  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv 
+  357  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv 
+  358  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc
+  359  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv | wc
+  360  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+  361  ls
+  362  awk -F "\t" '$12="F"' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  363  mv counts.txt worksheet2
+  364  ls
+  365  cd worksheet2
+  366  ls
+  367  vi counts.txt
+  368  history > cmds.log
+  369  ls
+  370  vi cmds.log
+  371  exit
+  372  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  373  ls
+  374  vi counts.txt 
+  375  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  376  vi counts.txt 
+  377  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  378  vi counts.txt 
+  379  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv
+  380  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  381  vi counts.txt 
+  382  egrep -P '/\tN\tY/' amazon_reviews_us_Books_v1_02.tsv | wc >> count.txt
+  383  grep -P '/\tN\tY/' amazon_reviews_us_Books_v1_02.tsv | wc >> count.txt
+  384  vi counts.txt 
+  385  grep -P '\tN\tY' amazon_reviews_us_Books_v1_02.tsv | wc >> count.txt
+  386  vi counts.txt 
+  387  grep -P '\tN\tY' amazon_reviews_us_Books_v1_02.tsv | wc
+  388  grep -P '\tN\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+  389  grep -P '\tY\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+  390  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  391  vi counts.txt 
+  392  exit
+  393  ls
+  394  cat counts.txt
+  395  cat count.txt
+  396  rm -f counts.txt
+  397  rm -f count.txt
+  398  ls
+  399  awk -F "\t" '$12="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+  400  ls
+  401  cat counts.txt
+  402  cd worksheet2
+  403  ls
+  404  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  405  cd ..
+  406  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  407  awk -F "\t" '$12="N" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  408  cd worksheet2
+  409  cat counts.txt
+  410  cd ..
+  411  awk -F "\t" '$12="\tY\t" {print}' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  412  awk -F "\t" '$12="\tY\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  413  awk -F "\t" '$12="\tY\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | less -30
+  414  awk -F "\t" '$12="\tY\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 50
+  415  awk -F "\t" '$12="\tY\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 100
+  416  awk -F "\t" '$12="\tN\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 50
+  417  awk -F "\t" '$12="\tN\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 100
+  418  awk -F "\t" '$12="\tN\t" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  419  cat worksheet2/counts.txt
+  420  awk -F "\t" '$12="\tN\t" {print}' amazon_reviews_us_Books_v1_02.tsv | head -n 10 | wc >> worksheet2/counts.txt
+  421  cat worksheet2/counts.txt
+  422  awk -F "\t" '$12="\tN\t" {print}' amazon_reviews_us_Books_v1_02.tsv | head -n 250 | wc >> worksheet2/counts.txt
+  423  cat worksheet2/counts.txt
+  424  wc amazon_reviews_us_Books_v1_02.tsv >> worksheet2/counts.txt
+  425  wc amazon_reviews_us_Books_v1_02.tsv | head -n 250 >> worksheet2/counts.txt
+  426  head -n 250 amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  427  cat worksheet2/counts.txt
+  428  grep -P '\tN\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt 
+  429  cat worksheet2/counts.txt
+  430  grep -P '\tY\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt 
+  431  cat worksheet2/counts.txt
+  432  vi worksheet2/counts.txt
+  433  awk -F "\t" '$12="\tY\t" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  434  awk -F "\t" '$12="\tN\t" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  435  cat worksheet2/counts.txt
+  436  vi worksheet2/counts.txt 
+  437  git status
+  438  cd worksheet1
+  439  git status
+  440  cd ..
+  441  ls
+  442  cat counts.txt
+  443  rm -f counts.txt
+  444  cat mytestfile1.txt
+  445  rm -f mytestfile1.txt
+  446  ls
+  447  mkdir worksheets
+  448  mv worksheet1 worksheets
+  449  ls
+  450  mv worksheet2 worksheets
+  451  ls
+  452  cd a1
+  453  ls
+  454  cd ..
+  455  mkdir assignments
+  456  mv a1 assignments
+  457  ls
+  458  mkdir workplace
+  459  mv assignmnets workplace
+  460  mv assignments workplace
+  461  mv worksheets workplace
+  462  ls
+  463  worksplace 
+  464  cd workplace
+  465  git init
+  466  ls
+  467  git statuts
+  468  git status
+  469  git add worksheets
+  470  git status
+  471  git commit -m "Commit worksheet2"
+  472  git statuts
+  473  git status
+  474  git remote add orgin https://github.com/dah00/CS-131.git
+  475  git push -u origin main
+  476  git push main
+  477  git branch -M main
+  478  git push -u origin main
+  479  git remote add origin https://github.com/dah00/CS-131.git
+  480  git status
+  481  git push -u
+  482  git push -u origin main
+  483  ls
+  484  git status
+  485  printenv
+  486  echo "me"
+  487  pwd
+  488  echo `pwd`
+  489  echo "$PWD"
+  490  $a = "Obeda"
+  491  $a="Obeda"
+  492  a="obeda"
+  493  echo "$a"
+  494  echo `a`
+  495  echo `$a`
+  496  echo `a`
+  497  echo `$a`
+  498  echo "pwd"
+  499  echo $a
+  500  echo $HOME
+  501  echo "pwd"
+  502  echo `pwd`
+  503  export
+  504  export -p
+  505  date "+%Y%m%d"
+  506  date
+  507  echo $?
+  508  cd ..
+  509  ls
+  510  cd ..
+  511  ls
+  512  cd ..
+  513  cd media
+  514  ls
+  515  cd ..
+  516  cd home
+  517  ls
+  518  cd obeda
+  519  /etc/passwd
+  520  cat /etc/passwd
+  521  cat /etc/group
+  522  cat /etc/sudoers
+  523  ls
+  524  ls -l /etc/sudoers
+  525  cat /etc/group
+  526  groups
+  527  ls
+  528  mkdir a1
+  529  ls
+  530  cd a1
+  531  echo $HOME
+  532  env
+  533  mkdir temp
+  534  ls -l tmep
+  535  ls -l temp
+  536  ls -l
+  537  chmod u-x temp
+  538  ls -l
+  539  cd temp
+  540  ls temp
+  541  ls -l temp
+  542  touch temp/testFile.txt
+  543  mkdir temp2
+  544  mv temp2 temp3
+  545  ls
+  546  mv temp3 temp2
+  547  grep mem /proc/
+  548  grep -r mem /proc/
+  549  ls /proc/ | grep mem
+  550  head /proc/iomen
+  551  cat /proc/iomen
+  552  cat /proc/meminfo
+  553  cat /proc/iomem
+  554  ls /proc/
+  555  ls /proc/ | grep cpu
+  556  head /proc/ meminfo
+  557  head /proc/meminfo
+  558  head /proc/cpuinfo
+  559  tail /proc/cpuinfo
+  560  cat /proc/cpuinfo
+  561  cp /home/test/A1/downloaded_hashtags_extend.csv .
+  562  ls
+  563  wc downloaded_hashtags_extend.csv 
+  564  wc -c  downloaded_hashtags_extend.csv 
+  565  grep -i great downloaded_hashtags_extend.csv 
+  566  grep -i "great" downloaded_hashtags_extend.csv 
+  567  grep -r -i "great" downloaded_hashtags_extend.csv 
+  568  grep -r -i "GREAT" downloaded_hashtags_extend.csv 
+  569  grep -i GREAT downloaded_hashtags_extend.csv 
+  570  head downloaded_hashtags_extend.csv 
+  571  head -n 20 downloaded_hashtags_extend.csv 
+  572  grep -i great downloaded_hashtags_extend.csv 
+  573  grep -i great downloaded_hashtags_extend.csv | wc 
+  574  grep -i "great" downloaded_hashtags_extend.csv | wc 
+  575  ls
+  576  cd workplace
+  577  ls
+  578  cd assignments
+  579  ls
+  580  cat a1
+  581  cd a1
+  582  ls
+  583  cd temp
+  584  cd temp3
+  585  cd ..
+  586  rm -d a1
+  587  rm a1
+  588  rm -rf a1
+  589  ls
+  590  script a1.txt
+  591  ls
+  592  cat a1.txt
+  593  ls
+  594  exit
+  595  head -n 10 a1.txt 
+  596  cd a1
+  597  file downloaded_hashtags_extend.csv 
+  598  man konwert
+  599  man iconv
+  600  iconv -f UTF-8 -t ASCII//TRANSLIT -o downloaded_hashtags_extend.csv 
+  601  iconv -f UTF-8 -t ASCII//TRANSLIT -o downloaded_hashtags_extend_ascii.csv downloaded_hashtags_extend.csv 
+  602  ls
+  603  cat downloaded_hashtags_extend_ascii.csv 
+  604  file downloaded_hashtags_extend_ascii.csv 
+  605  head -n 2 dow
+  606  head -n 2 downloaded_hashtags_extend
+  607  head -n 2 downloaded_hashtags_extend.csv 
+  608  head -n 4 downloaded_hashtags_extend.csv 
+  609  awk -F ',' '{print $1}' downloaded_hashtags_extend.csv | uniq | wc 
+  610  wc downloaded_hashtags_extend.csv 
+  611  awk -F ',' '{print $(NF)}' downloaded_hashtags_extend.csv | uniq | wc 
+  612  awk -F ',' '{print $2}' downloaded_hashtags_extend.csv | uniq | wc 
+  613  ls
+  614  cat ../a1.txt 
+  615  ls
+  616  cd workplace
+  617  ls
+  618  cd assignments
+  619  ls
+  620  cd a1
+  621  ls
+  622  file downloaded_hashtags_extend.csv 
+  623  cd ..
+  624  ls
+  625  script -a a1.txt
+  626  exit 
+  627  ls
+  628  cd workplace
+  629  ls
+  630  cd assignments
+  631  ls
+  632  wc a1.txt 
+  633  exit
+  634  mkdir a1
+  635  cd a1
+  636  echo $HOME
+  637  env
+  638  echo $UID
+  639  groups
+  640  mkdir temp
+  641  chmod u-x temp
+  642  ls -l
+  643  cd temp
+  644  ls temp
+  645  touch ./temp/tempfile.txt
+  646  mkdir temp2
+  647  ls /proc/ | grep mem
+  648  ls /proc/ | grep cpu
+  649  head /proc/meminfo
+  650  head /proc/cpuinfo
+  651  tail /proc/cpuinfo
+  652  cp /home/test/A1/downloaded_hashtags_extend.csv .
+  653  ls
+  654  grep -i great downloaded_hashtags_extend.csv | wc
+  655  file downloaded_hashtags_extend.csv 
+  656  iconv -f utf-8 -t ascii//translit -o downloaded_hashtags_extend_ascii.csv downloaded_hashtags_extend.csv 
+  657  file downloaded_hashtags_extend_ascii.csv 
+  658  head -n 4 downloaded_hashtags_extend.csv 
+  659  awk -F ',' '{print $1}' downloaded_hashtags_extend.csv | uniq | wc
+  660  awk -F ',' '{print $(NF)}' downloaded_hashtags_extend.csv | uniq | wc
+  661  awk -F ',' '{print $2}' downloaded_hashtags_extend.csv | uniq | wc
+  662  cd workplace
+  663  cd assignments
+  664  ls
+  665  rm a1
+  666  rm -rf a1
+  667  ls
+  668  rm a1.txt 
+  669  ls
+  670  script a1.txt
+  671  ls
+  672  cat a1.txt
+  673  vi a1.txt
+  674  cat a1.txt
+  675  mv a1.txt a1
+  676  ls
+  677  a1
+  678  cd a1
+  679  ls
+  680  rm downloaded_hashtags_extend.csv
+  681  rm downloaded_hashtags_extend_ascii.csv 
+  682  git status
+  683  git add .
+  684  git status
+  685  git add ../a1
+  686  git status
+  687  git commit -m "commit a1 directory"
+  688  git push 
+  689  exit
+  690  ls 
+  691  head -n 5 amazon_reviews_us_Books_v1_02.tsv 
+  692  head -n 3 amazon_reviews_us_Books_v1_02.tsv 
+  693  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  694  sort -k 2n amazon_reviews_us_Books_v1_02.tsv | head -n 4 
+  695  awk -F '/t' '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -k 2n | head -n 4 
+  696  awk -F '/t' '{print $2}' amazon_reviews_us_Books_v1_02.t-Fsv | sort -k 2n | head -n 4 
+  697  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.t | sort -k 2n | head -n 4 
+  698  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -k 2n | head -n 4 
+  699  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -k n | head -n 4 
+  700  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -k -n | head -n 4 
+  701  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -k  | head -n 4 
+  702  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort | head -n 4 
+  703  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | head -n 4 
+  704  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | head -n 10 
+  705  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | head -n 10 
+  706  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort | head -n 4 
+  707  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort n | head -n 4 
+  708  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -n | head -n 4 
+  709  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -rn | head -n 4 
+  710  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -rn | head -n 15
+  711  exit
+  712  ls
+  713  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  714  cut -d " " -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq
+  715  cut -d " " -f 2 amazon_reviews_us_Books_v1_02.tsv | head -n 5
+  716  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | head -n 5
+  717  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | head -n 5
+  718  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | head -n 20
+  719  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq | head -n 20
+  720  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c | head -n 5
+  721  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c | head -n 20
+  722  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -nr | head -n 20
+  723  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  724  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -k 1 -nr | head -n 20
+  725  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -k 2 -nr | head -n 6
+  726  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -nr | head -10
+  727  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -n | tail -10
+  728  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | head -n 10
+  729  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | tail -10
+  730  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv > amazon_customerIDs.txt
+  731  ls
+  732  head -n 10 amazon_customerIDs.txt 
+  733  sort amazon_customerIDs.txt | uniq -c | tail -n 10 
+  734  sort amazon_customerIDs.txt | uniq -c | sort -nr | tail -n 10 
+  735  sort amazon_customerIDs.txt | uniq -c | sort -nr | head -n 10
+  736  ls
+  737  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  738  cut -d "	" -f 4 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr | head -n 10
+  739  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr | head -n 10
+  740  exit
+  741  cut -d "	" -f 2 ../../../amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr | head -n 6
+  742  cut -d "	" -f 4 ../../../amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr | head -n 6
+  743  history > cmds.log

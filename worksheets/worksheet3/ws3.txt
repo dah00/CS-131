@@ -1,0 +1,29 @@
+Script started on 2022-09-15 22:12:13-04:00
+1. 
+]0;obeda@sjsu:~/workplace/worksheets/worksheet3[obeda@sjsu worksheet3]$ cut -d ""       "[C -f 2 ama[K[K[K../../../[K[K[K../amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr | head -n 5[K6
+  21922 50122160
+   9964 50732546
+   2664 52615377
+   2215 45041039
+   1797 50776149
+   1786 50913245
+
+=> Top 3 reviewers: 50122160, 50732546, and 52615377
+
+2. 
+]0;obeda@sjsu:~/workplace/worksheets/worksheet3[obeda@sjsu worksheet3]$ cut -d "       " -f 2 ../../../amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr | head -n 6[1P[1@4
+   4625 043935806X
+   3739 0439139597
+   2666 0525947647
+   2615 0895260174
+   2584 0385504209
+   2366 0590353403
+
+-> Top 3 reviewed products: 043935806X, 0439139597, and 0525947647
+
+]0;obeda@sjsu:~/workplace/worksheets/worksheet3[obeda@sjsu worksheet3]$ hisotry[K[K[K[Ktory > cmds.log
+]0;obeda@sjsu:~/workplace/worksheets/worksheet3[obeda@sjsu worksheet3]$ ls
+cmds.log  ws3.txt
+]0;obeda@sjsu:~/workplace/worksheets/worksheet3[obeda@sjsu worksheet3]$ exit
+
+Script done on 2022-09-15 22:16:46-04:00

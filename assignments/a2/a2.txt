@@ -1,0 +1,181 @@
+Script started on 2022-09-25 01:08:05-04:00
+1.
+]0;obeda@sjsu:~/workplace/assignments/a2[obeda@sjsu a2]$ grep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    " -f4 | sort | uniq -c | sort -rn | head -31[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@replied_to\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Ptweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcut -d "       " -f4 downloaded_tweets_extend_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "  " -f2 | sort | uniq -c | sort -rn | head -11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcut -d "       " -f6 downloaded_tweets_extend_original_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd a2[Kssignments2[Kut -d "       " -f2 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -rn | head -11
+    527 18831926
+    387 1891490382
+    276 163018653
+    274 1495480590572961792
+    254 1231514832479948802
+    250 1219232377605644289
+    189 42836999
+    179 1229752606714728454
+    178 380648579
+    159 1290232189615894531
+    158 813314931147816960
+
+2.
+]0;obeda@sjsu:~/workplace/assignments/a2[obeda@sjsu a2]$ cut -d "       " -f2 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -rn | head -11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    " -f4 | sort | uniq -c | sort -rn | head -31[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@replied_to\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Ptweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcut -d "       " -f4 downloaded_tweets_extend_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "  " -f2 | sort | uniq -c | sort -rn | head -11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcut -d "       " -f6 downloaded_tweets_extend_original_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+  38743 
+    238 18831926
+    107 380648579
+     83 16050065
+     46 3453306553
+     39 544732668
+     37 1094971056358637568
+     36 172323296
+     36 140496030
+     31 29447428
+     30 1240682348120866816
+
+3.
+]0;obeda@sjsu:~/workplace/assignments/a2[obeda@sjsu a2]$ cut -d "       " -f6 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -rn | head -11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    " -f4 | sort | uniq -c | sort -rn | head -31[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@replied_to\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Ptweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcut -d "       " -f4 downloaded_tweets_extend_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "  " -f2 | sort | uniq -c | sort -rn | head -11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcut -d "       " -f6 downloaded_tweets_extend_original_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12@grep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "  " -f2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+   2065 45379403
+   1678 77726331
+   1641 870244616003403781
+   1582 1028022611324747776
+   1312 711608180535640064
+   1281 139109800
+   1234 177400353
+   1216 832019161454817280
+   1159 29447428
+   1139 1060440219097423872
+   1124 302984766
+
+5.
+]0;obeda@sjsu:~/workplace/assignments/a2[obeda@sjsu a2]$ grep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "  " -f2 | sort | uniq -c | sort -rn | head -11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcut -d "       " -f6 downloaded_tweets_extend_original_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    " -f4 | sort | uniq -c | sort -rn | head -31[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@replied_to\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Ptweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcut -d "       " -f4 downloaded_tweets_extend_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+  20647 
+   1266 Ukraine
+    945 COVID19
+    870 LongCovid
+    833 "FBPE,FollowBackFriday"
+    320 Russia
+    305 BREAKING
+    257 PMQs
+    208 auspol
+    181 StandWithUkraine
+    177 AmiesMovieRating
+    176 Omicron
+    168 Mariupol
+    136 Kyiv
+    135 BA2
+    122 "Russia,Ukraine"
+    120 COVID
+    118 Bales2022FilmChallenge
+    111 Putin
+    108 COVIDisAirborne
+    107 "PutinHitler,StandWithUkraine,PutinHitler,PutinWarCriminal,StopPutinNOW,RussiaSanctions,BoycottRussia"
+    107 ClimateCrisis
+    106 BoycottATP
+    105 Russian
+     98 "cathrynhartt,harttandsoul,actor,actorslife"
+     97 Covid19
+     93 Partygate
+     87 TikTok
+     85 longcovid
+     80 Ottawa
+     79 Brexit
+
+6.
+]0;obeda@sjsu:~/workplace/assignments/a2[obeda@sjsu a2]$ cut -d "       " -f4 downloaded_tweets_extend_nolf2.tsv | sort | uniq -c | sort -rn | head -31[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "  " -f2 | sort | uniq -c | sort -rn | head -11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcut -d "       " -f6 downloaded_tweets_extend_original_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    " -f4 | sort | uniq -c | sort -rn | head -31[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@replied_to\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Ptweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+  20641 
+   1165 Ukraine
+    811 LongCovid
+    782 COVID19
+    304 BREAKING
+    301 Russia
+    197 auspol
+    166 PMQs
+    161 Omicron
+    161 Mariupol
+    133 Kyiv
+    132 StandWithUkraine
+    131 BA2
+    118 "Russia,Ukraine"
+    112 COVID
+     97 Covid19
+     93 Russian
+     84 longcovid
+     78 COVIDisAirborne
+     76 Partygate
+     74 MitchPlease
+     72 "Ukraine,Russia"
+     72 Brexit
+     70 UPDATE
+     67 SOTU
+     66 insiders
+     65 Putin
+     64 covid19
+     61 Ukrainian
+     61 Oscars
+     59 DailyCovidUpdate
+
+7.
+]0;obeda@sjsu:~/workplace/assignments/a2[obeda@sjsu a2]$ grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d " " -f4 | sort | uniq -c | sort -rn | head -31[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcut -d "       " -f4 downloaded_tweets_extend_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "  " -f2 | sort | uniq -c | sort -rn | head -11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcut -d "       " -f6 downloaded_tweets_extend_original_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    " -f4 | sort | uniq -c | sort -rn | head -31[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8@replied_to\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+    832 "FBPE,FollowBackFriday"
+    106 COVID19
+    106 BoycottATP
+    105 "PutinHitler,StandWithUkraine,PutinHitler,PutinWarCriminal,StopPutinNOW,RussiaSanctions,BoycottRussia"
+     69 ClimateCrisis
+     50 "J6T,J6TraitorSaysWhat"
+     49 LongCovid
+     42 Ottawa
+     35 DowningStreetParties
+     31 Ukraine
+     29 N95
+     27 TEAMMOLLY
+     26 btc
+     25 Putin
+     21 "FBPE,FBPPR,FollowBackFriday"
+     19 TrumpGQPdeathKKKult
+     19 COVIDisAirborne
+     18 StandWithUkraine
+     18 RejoinEU
+     18 CrazyTown
+     17 VaccineSideEffects
+     16 ClimateEmergency
+     15 ToyFair2022
+     15 "FBPE,FollowBackFriday,TakeBackDemocracy"
+     15 FAFO
+     15 "bcpoli,bced"
+     14 ScottytheFailure
+     14 "COVID19BC,bcpoli"
+     13 "PutinHitler,StandWithUkraine"
+     13 MLKDay
+     13 LoveAfterLockup
+
+8.
+]0;obeda@sjsu:~/workplace/assignments/a2[obeda@sjsu a2]$ grep -e '\[*replied_to\]' downloaded_tweets_extend_nolf2.tsv | cut -d "        " -f4 | sort | uniq -c | sort -rn | head -31[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[8Ptweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[21Pcut -d "       " -f4 downloaded_tweets_extend_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "  " -f2 | sort | uniq -c | sort -rn | head -11[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcut -d "       " -f6 downloaded_tweets_extend_original_nolf2.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgrep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "    " -f4 | sort | uniq -c | sort -rn | head -31
+     28 COVID19
+     24 HousingCrisis
+     23 Ukraine
+     20 JimCrowGOP
+     20 COVID19AB
+     20 "BDS,FreePalestine"
+     16 VaccineSideEffects
+     16 ClimateCrisis
+     15 Putin
+     15 "ableg,covid19ab"
+     14 TrumpGQPdeathKKKult
+     14 Antisemitism
+     13 RipCity
+     12 MaskItOrCasket
+     12 ChefsForUkraine
+     12 ableg
+     10 VITT
+     10 SocialismOrBarbarism
+     10 Russia
+     10 "ableg,COVID19AB"
+     10 "ableg,abed,covid19ab"
+      9 StandWithUkraine
+      9 "ableg,abed,COVID19AB"
+      8 "NAZI,UKRAINE"
+      8 MLKDay
+      8 LongCovid
+      8 FreePalestine
+      8 CrazyTown
+      8 AbolishPolice
+      7 TheView
+      7 Ottawa
+]0;obeda@sjsu:~/workplace/assignments/a2[obeda@sjsu a2]$ exit
+
+Script done on 2022-09-25 01:09:59-04:00

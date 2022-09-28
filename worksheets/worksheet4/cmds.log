@@ -1,0 +1,1000 @@
+   53  env
+   54  echo $?
+   55  ls
+   56  cat cmds.log
+   57  exit
+   58  ls
+   59  tar -zxvf amazon_reviews_us_Books_v1_02.tsv.gz
+   60  exit
+   61  Gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+   62  ls
+   63  mkdir worksheet2
+   64  exit
+   65  ls
+   66  unzip amazon_reviews_us_Books_v1_02.tsv.gz -d worksheet2
+   67  cd worksheet2
+   68  ls
+   69  cd ..
+   70  cat amazon_reviews_us_Books_v1_02.tsv.gz 
+   71  ls
+   72  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+   73  ls
+   74  rm amazon_reviews_us_Books_v1_02.tsv.gz.1
+   75  ls
+   76  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+   77  ls
+   78  ls -altr
+   79  rm amazon_reviews_us_Books_v1_02.tsv.gz.1
+   80  ls
+   81  head amazon_reviews_us_Books_v1_02.tsv.gz 
+   82  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+   83  head amazon_reviews_us_Books_v1_02.tsv.gz.1 
+   84  rm amazon_reviews_us_Books_v1_02.tsv.gz.1
+   85  head amazon_reviews_us_Books_v1_02.tsv.gz
+   86  exit
+   87  ls
+   88  gunzip amazon_reviews_us_Books_v1_02.tsv.gz -d worksheet2
+   89  ls
+   90  cd worksheet2
+   91  ls
+   92  cd ..
+   93  tar -zxvf amazon_reviews_us_Books_v1_02.tsv.gz -d worksheet2
+   94  gzip amazon_reviews_us_Books_v1_02.tsv.gz -d worksheet2
+   95  ls
+   96  worksheet2
+   97  head amazon_reviews_us_Books_v1_02.tsv 
+   98  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+   99  man grep
+  100  grep -n verified amazon_reviews_us_Books_v1_02.tsv 
+  101  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  102  ls
+  103  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  104  ls
+  105  rm amazon_reviews_us_Books_v1_02.tsv
+  106  ls
+  107  gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+  108  ls
+  109  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  110  man grep 
+  111  mkdir a1
+  112  cd a1
+  113  env
+  114  echo $UID
+  115  man UID
+  116  man uid
+  117  echo $GID
+  118  gid
+  119  whomai
+  120  id -g
+  121  man chmod
+  122  id -u
+  123  mkdir temp
+  124  man chmod
+  125  ls -latr
+  126  lll
+  127  ls -l
+  128  chmod u-x temp
+  129  ls -l
+  130  cd temp
+  131  ls temp
+  132  ls -d temp
+  133  ls -l temp
+  134  mkfile ./temp
+  135  cd ..
+  136  mkfile ./worksheet1
+  137  mkfile ./worksheet1/test.txt
+  138  touch ./worksheet1/test.txt
+  139  cd worksheet1
+  140  ls
+  141  rm -f test.txt
+  142  ls
+  143  cd ..
+  144  cd worksheet2
+  145  touch ./temp/tempfile.txt
+  146  ls -l temp
+  147  cd ..
+  148  ls temp
+  149  ls worksheet2
+  150  ls -l worksheet2
+  151  ls -latr worksheet2
+  152  ls -lat worksheet2
+  153  cd worksheet2
+  154  ls -lat temp
+  155  ls -l temp
+  156  touch ./temp/tempfile.txt
+  157  ls
+  158  cd a1
+  159  ls
+  160  mkdir temp2
+  161  mv temp2 temp3
+  162  ls
+  163  exit
+  164  ls
+  165  cd worksheet2
+  166  ls
+  167  cd ..
+  168  head -n amazon_reviews_us_Books_v1_02.tsv 
+  169  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  170  head -n 1 amazon_reviews_us_Books_v1_02.tsv 
+  171  head -n 3 amazon_reviews_us_Books_v1_02.tsv 
+  172  cat /etc/pwd
+  173  cat /etc/passwd
+  174  man awk
+  175  head -n  amazon_reviews_us_Books_v1_02.tsv 
+  176  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  177  awk -F "\t" '/\tY\t/'amazo_reviews_us_Books_v1_02.tsv
+  178  ls
+  179  awk -F "\t" '\tY\t' amazon_reviews_us_Books_v1_02.tsv 
+  180  awk -F "\t" '/\tY\t/' amazon_reviews_us_Books_v1_02.tsv 
+  181  awk -F "\t" '/\tY\t/' amazon_reviews_us_Books_v1_02.tsv  | uniq
+  182  awk -F "\t" '/\tY\t/' amazon_reviews_us_Books_v1_02.tsv  | head -n 10
+  183  awk -F "\t" '/\tY\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 10
+  184  awk -F "\t" '/\tY\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 15
+  185  awk -F "\t" '/\tY\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  186  awk '/\tY\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  187  awk -F "\t" '/\tY\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  188  awk -F "\t" '/\tY\t/ {print}' amazon_reviews_us_Books_v1_02.tsv  | head -n 5
+  189  awk -F "\t" '/\tN\t/ {print}' amazon_reviews_us_Books_v1_02.tsv  | head -n 5
+  190  awk -F "\t" '/\tN\t/ {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  191  man awk
+  192  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  193  awk -F "\t" '$12="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  194  awk -F "\t" '$12="N" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 30
+  195  awk -F "\t" '$12="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 40
+  196  awk -F "\t" '$11="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 40
+  197  awk -F "\t" '$12="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 40
+  198  awk -F "\t" '$12="N" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | head -n 40
+  199  awk -F "\t" '$12="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | wc
+  200  awk -F "\t" '$12="N" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv  | wc
+  201  wc amazon_reviews_us_Books_v1_02.tsv 
+  202  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv  | wc
+  203  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv | head -n 30
+  204  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv | wc
+  205  exit
+  206  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc
+  207  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | wc
+  208  wc amazon_reviews_us_Books_v1_02.tsv 
+  209  man grep
+  210  egrep -P "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  211  egrep -P "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  212  egrep -P '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  213  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | less -n 20
+  214  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | less -N 20
+  215  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | less -20
+  216  awk -F "\t" '$12="Y" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | less -20
+  217  awk -F "\t" '$12=Y {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | wc
+  218  awk -F "\t" '$12=Y {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  219  awk -F "\t" '$12="Y" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  220  exit
+  221  awk -F "\t" '$12="Y" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  222  awk -F "\t" '$12=Y {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  223  awk -F "\t" '$12="Y" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  224  awk -F "\t" '$12="N" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 20
+  225  awk -F "\t" '$12="N" {print $11 $12}' amazon_reviews_us_Books_v1_02.tsv | wc
+  226  exit 
+  227  ls
+  228  rm -f amazon_reviews_us_Books_v1_02.tsv 
+  229  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz
+  230  gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+  231  ls
+  232  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv 
+  233  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv 
+  234  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc
+  235  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv | wc
+  236  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+  237  ls
+  238  awk -F "\t" '$12="F"' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  239  mv counts.txt worksheet2
+  240  ls
+  241  cd worksheet2
+  242  ls
+  243  vi counts.txt
+  244  history > cmds.log
+  245  ls
+  246  vi cmds.log
+  247  exit
+  248  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  249  ls
+  250  vi counts.txt 
+  251  awk -F "\t" '$12="N"' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  252  vi counts.txt 
+  253  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  254  vi counts.txt 
+  255  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv
+  256  awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  257  vi counts.txt 
+  258  egrep -P '/\tN\tY/' amazon_reviews_us_Books_v1_02.tsv | wc >> count.txt
+  259  grep -P '/\tN\tY/' amazon_reviews_us_Books_v1_02.tsv | wc >> count.txt
+  260  vi counts.txt 
+  261  grep -P '\tN\tY' amazon_reviews_us_Books_v1_02.tsv | wc >> count.txt
+  262  vi counts.txt 
+  263  grep -P '\tN\tY' amazon_reviews_us_Books_v1_02.tsv | wc
+  264  grep -P '\tN\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+  265  grep -P '\tY\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc
+  266  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  267  vi counts.txt 
+  268  exit
+  269  ls
+  270  cat counts.txt
+  271  cat count.txt
+  272  rm -f counts.txt
+  273  rm -f count.txt
+  274  ls
+  275  awk -F "\t" '$12="Y" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | wc > counts.txt
+  276  ls
+  277  cat counts.txt
+  278  cd worksheet2
+  279  ls
+  280  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> counts.txt
+  281  cd ..
+  282  awk -F "\t" '$12="Y" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  283  awk -F "\t" '$12="N" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  284  cd worksheet2
+  285  cat counts.txt
+  286  cd ..
+  287  awk -F "\t" '$12="\tY\t" {print}' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  288  awk -F "\t" '$12="\tY\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 10
+  289  awk -F "\t" '$12="\tY\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | less -30
+  290  awk -F "\t" '$12="\tY\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 50
+  291  awk -F "\t" '$12="\tY\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 100
+  292  awk -F "\t" '$12="\tN\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 50
+  293  awk -F "\t" '$12="\tN\t" {print $10 $11 $12}' amazon_reviews_us_Books_v1_02.tsv | head -n 100
+  294  awk -F "\t" '$12="\tN\t" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  295  cat worksheet2/counts.txt
+  296  awk -F "\t" '$12="\tN\t" {print}' amazon_reviews_us_Books_v1_02.tsv | head -n 10 | wc >> worksheet2/counts.txt
+  297  cat worksheet2/counts.txt
+  298  awk -F "\t" '$12="\tN\t" {print}' amazon_reviews_us_Books_v1_02.tsv | head -n 250 | wc >> worksheet2/counts.txt
+  299  cat worksheet2/counts.txt
+  300  wc amazon_reviews_us_Books_v1_02.tsv >> worksheet2/counts.txt
+  301  wc amazon_reviews_us_Books_v1_02.tsv | head -n 250 >> worksheet2/counts.txt
+  302  head -n 250 amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  303  cat worksheet2/counts.txt
+  304  grep -P '\tN\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt 
+  305  cat worksheet2/counts.txt
+  306  grep -P '\tY\tY\t' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt 
+  307  cat worksheet2/counts.txt
+  308  vi worksheet2/counts.txt
+  309  awk -F "\t" '$12="\tY\t" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  310  awk -F "\t" '$12="\tN\t" {print}' amazon_reviews_us_Books_v1_02.tsv | wc >> worksheet2/counts.txt
+  311  cat worksheet2/counts.txt
+  312  vi worksheet2/counts.txt 
+  313  git status
+  314  cd worksheet1
+  315  git status
+  316  cd ..
+  317  ls
+  318  cat counts.txt
+  319  rm -f counts.txt
+  320  cat mytestfile1.txt
+  321  rm -f mytestfile1.txt
+  322  ls
+  323  mkdir worksheets
+  324  mv worksheet1 worksheets
+  325  ls
+  326  mv worksheet2 worksheets
+  327  ls
+  328  cd a1
+  329  ls
+  330  cd ..
+  331  mkdir assignments
+  332  mv a1 assignments
+  333  ls
+  334  mkdir workplace
+  335  mv assignmnets workplace
+  336  mv assignments workplace
+  337  mv worksheets workplace
+  338  ls
+  339  worksplace 
+  340  cd workplace
+  341  git init
+  342  ls
+  343  git statuts
+  344  git status
+  345  git add worksheets
+  346  git status
+  347  git commit -m "Commit worksheet2"
+  348  git statuts
+  349  git status
+  350  git remote add orgin https://github.com/dah00/CS-131.git
+  351  git push -u origin main
+  352  git push main
+  353  git branch -M main
+  354  git push -u origin main
+  355  git remote add origin https://github.com/dah00/CS-131.git
+  356  git status
+  357  git push -u
+  358  git push -u origin main
+  359  ls
+  360  git status
+  361  printenv
+  362  echo "me"
+  363  pwd
+  364  echo `pwd`
+  365  echo "$PWD"
+  366  $a = "Obeda"
+  367  $a="Obeda"
+  368  a="obeda"
+  369  echo "$a"
+  370  echo `a`
+  371  echo `$a`
+  372  echo `a`
+  373  echo `$a`
+  374  echo "pwd"
+  375  echo $a
+  376  echo $HOME
+  377  echo "pwd"
+  378  echo `pwd`
+  379  export
+  380  export -p
+  381  date "+%Y%m%d"
+  382  date
+  383  echo $?
+  384  cd ..
+  385  ls
+  386  cd ..
+  387  ls
+  388  cd ..
+  389  cd media
+  390  ls
+  391  cd ..
+  392  cd home
+  393  ls
+  394  cd obeda
+  395  /etc/passwd
+  396  cat /etc/passwd
+  397  cat /etc/group
+  398  cat /etc/sudoers
+  399  ls
+  400  ls -l /etc/sudoers
+  401  cat /etc/group
+  402  groups
+  403  ls
+  404  mkdir a1
+  405  ls
+  406  cd a1
+  407  echo $HOME
+  408  env
+  409  mkdir temp
+  410  ls -l tmep
+  411  ls -l temp
+  412  ls -l
+  413  chmod u-x temp
+  414  ls -l
+  415  cd temp
+  416  ls temp
+  417  ls -l temp
+  418  touch temp/testFile.txt
+  419  mkdir temp2
+  420  mv temp2 temp3
+  421  ls
+  422  mv temp3 temp2
+  423  grep mem /proc/
+  424  grep -r mem /proc/
+  425  ls /proc/ | grep mem
+  426  head /proc/iomen
+  427  cat /proc/iomen
+  428  cat /proc/meminfo
+  429  cat /proc/iomem
+  430  ls /proc/
+  431  ls /proc/ | grep cpu
+  432  head /proc/ meminfo
+  433  head /proc/meminfo
+  434  head /proc/cpuinfo
+  435  tail /proc/cpuinfo
+  436  cat /proc/cpuinfo
+  437  cp /home/test/A1/downloaded_hashtags_extend.csv .
+  438  ls
+  439  wc downloaded_hashtags_extend.csv 
+  440  wc -c  downloaded_hashtags_extend.csv 
+  441  grep -i great downloaded_hashtags_extend.csv 
+  442  grep -i "great" downloaded_hashtags_extend.csv 
+  443  grep -r -i "great" downloaded_hashtags_extend.csv 
+  444  grep -r -i "GREAT" downloaded_hashtags_extend.csv 
+  445  grep -i GREAT downloaded_hashtags_extend.csv 
+  446  head downloaded_hashtags_extend.csv 
+  447  head -n 20 downloaded_hashtags_extend.csv 
+  448  grep -i great downloaded_hashtags_extend.csv 
+  449  grep -i great downloaded_hashtags_extend.csv | wc 
+  450  grep -i "great" downloaded_hashtags_extend.csv | wc 
+  451  ls
+  452  cd workplace
+  453  ls
+  454  cd assignments
+  455  ls
+  456  cat a1
+  457  cd a1
+  458  ls
+  459  cd temp
+  460  cd temp3
+  461  cd ..
+  462  rm -d a1
+  463  rm a1
+  464  rm -rf a1
+  465  ls
+  466  script a1.txt
+  467  ls
+  468  cat a1.txt
+  469  ls
+  470  exit
+  471  head -n 10 a1.txt 
+  472  cd a1
+  473  file downloaded_hashtags_extend.csv 
+  474  man konwert
+  475  man iconv
+  476  iconv -f UTF-8 -t ASCII//TRANSLIT -o downloaded_hashtags_extend.csv 
+  477  iconv -f UTF-8 -t ASCII//TRANSLIT -o downloaded_hashtags_extend_ascii.csv downloaded_hashtags_extend.csv 
+  478  ls
+  479  cat downloaded_hashtags_extend_ascii.csv 
+  480  file downloaded_hashtags_extend_ascii.csv 
+  481  head -n 2 dow
+  482  head -n 2 downloaded_hashtags_extend
+  483  head -n 2 downloaded_hashtags_extend.csv 
+  484  head -n 4 downloaded_hashtags_extend.csv 
+  485  awk -F ',' '{print $1}' downloaded_hashtags_extend.csv | uniq | wc 
+  486  wc downloaded_hashtags_extend.csv 
+  487  awk -F ',' '{print $(NF)}' downloaded_hashtags_extend.csv | uniq | wc 
+  488  awk -F ',' '{print $2}' downloaded_hashtags_extend.csv | uniq | wc 
+  489  ls
+  490  cat ../a1.txt 
+  491  ls
+  492  cd workplace
+  493  ls
+  494  cd assignments
+  495  ls
+  496  cd a1
+  497  ls
+  498  file downloaded_hashtags_extend.csv 
+  499  cd ..
+  500  ls
+  501  script -a a1.txt
+  502  exit 
+  503  ls
+  504  cd workplace
+  505  ls
+  506  cd assignments
+  507  ls
+  508  wc a1.txt 
+  509  exit
+  510  mkdir a1
+  511  cd a1
+  512  echo $HOME
+  513  env
+  514  echo $UID
+  515  groups
+  516  mkdir temp
+  517  chmod u-x temp
+  518  ls -l
+  519  cd temp
+  520  ls temp
+  521  touch ./temp/tempfile.txt
+  522  mkdir temp2
+  523  ls /proc/ | grep mem
+  524  ls /proc/ | grep cpu
+  525  head /proc/meminfo
+  526  head /proc/cpuinfo
+  527  tail /proc/cpuinfo
+  528  cp /home/test/A1/downloaded_hashtags_extend.csv .
+  529  ls
+  530  grep -i great downloaded_hashtags_extend.csv | wc
+  531  file downloaded_hashtags_extend.csv 
+  532  iconv -f utf-8 -t ascii//translit -o downloaded_hashtags_extend_ascii.csv downloaded_hashtags_extend.csv 
+  533  file downloaded_hashtags_extend_ascii.csv 
+  534  head -n 4 downloaded_hashtags_extend.csv 
+  535  awk -F ',' '{print $1}' downloaded_hashtags_extend.csv | uniq | wc
+  536  awk -F ',' '{print $(NF)}' downloaded_hashtags_extend.csv | uniq | wc
+  537  awk -F ',' '{print $2}' downloaded_hashtags_extend.csv | uniq | wc
+  538  cd workplace
+  539  cd assignments
+  540  ls
+  541  rm a1
+  542  rm -rf a1
+  543  ls
+  544  rm a1.txt 
+  545  ls
+  546  script a1.txt
+  547  ls
+  548  cat a1.txt
+  549  vi a1.txt
+  550  cat a1.txt
+  551  mv a1.txt a1
+  552  ls
+  553  a1
+  554  cd a1
+  555  ls
+  556  rm downloaded_hashtags_extend.csv
+  557  rm downloaded_hashtags_extend_ascii.csv 
+  558  git status
+  559  git add .
+  560  git status
+  561  git add ../a1
+  562  git status
+  563  git commit -m "commit a1 directory"
+  564  git push 
+  565  exit
+  566  ls 
+  567  head -n 5 amazon_reviews_us_Books_v1_02.tsv 
+  568  head -n 3 amazon_reviews_us_Books_v1_02.tsv 
+  569  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  570  sort -k 2n amazon_reviews_us_Books_v1_02.tsv | head -n 4 
+  571  awk -F '/t' '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -k 2n | head -n 4 
+  572  awk -F '/t' '{print $2}' amazon_reviews_us_Books_v1_02.t-Fsv | sort -k 2n | head -n 4 
+  573  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.t | sort -k 2n | head -n 4 
+  574  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -k 2n | head -n 4 
+  575  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -k n | head -n 4 
+  576  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -k -n | head -n 4 
+  577  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -k  | head -n 4 
+  578  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort | head -n 4 
+  579  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | head -n 4 
+  580  awk -F "/t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | head -n 10 
+  581  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | head -n 10 
+  582  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort | head -n 4 
+  583  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort n | head -n 4 
+  584  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -n | head -n 4 
+  585  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -rn | head -n 4 
+  586  awk -F "\t" '{print $2}' amazon_reviews_us_Books_v1_02.tsv | sort -rn | head -n 15
+  587  exit
+  588  ls
+  589  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  590  cut -d " " -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq
+  591  cut -d " " -f 2 amazon_reviews_us_Books_v1_02.tsv | head -n 5
+  592  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | head -n 5
+  593  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | head -n 5
+  594  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | head -n 20
+  595  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq | head -n 20
+  596  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c | head -n 5
+  597  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort -nr | uniq -c | head -n 20
+  598  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -nr | head -n 20
+  599  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  600  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -k 1 -nr | head -n 20
+  601  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -k 2 -nr | head -n 6
+  602  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -nr | head -10
+  603  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | sort -n | tail -10
+  604  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | head -n 10
+  605  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | uniq -c | tail -10
+  606  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv > amazon_customerIDs.txt
+  607  ls
+  608  head -n 10 amazon_customerIDs.txt 
+  609  sort amazon_customerIDs.txt | uniq -c | tail -n 10 
+  610  sort amazon_customerIDs.txt | uniq -c | sort -nr | tail -n 10 
+  611  sort amazon_customerIDs.txt | uniq -c | sort -nr | head -n 10
+  612  ls
+  613  head -n 2 amazon_reviews_us_Books_v1_02.tsv 
+  614  cut -d "	" -f 4 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr | head -n 10
+  615  cut -d "	" -f 2 amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr | head -n 10
+  616  exit
+  617  cut -d "	" -f 2 ../../../amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr | head -n 6
+  618  cut -d "	" -f 4 ../../../amazon_reviews_us_Books_v1_02.tsv | sort | uniq -c | sort -nr | head -n 6
+  619  history > cmds.log
+  620  ls
+  621  ls
+  622  rm amazon_customerIDs.txt 
+  623  ls
+  624  cd workplace
+  625  ls
+  626  cd worksheets
+  627  ls
+  628  mkdir worksheet3
+  629  cd worksheet3
+  630  ls
+  631  script ws3.txt
+  632  cat cmds.log
+  633  ls
+  634  cat ws3.txt
+  635  vi ws3.txt 
+  636  git status
+  637  cd ..
+  638  ls
+  639  git add worksheet3
+  640  git status
+  641  git commit -m "commit worksheet3"
+  642  git push 
+  643  exit
+  644  cd workplace 
+  645  cd assignments
+  646  ls
+  647  mkdir a2
+  648  cd a2
+  649  ls /home/test/A1
+  650  cp /home/test/A1/downloaded_tweets_extend.csv
+  651  cp /home/test/A1/downloaded_tweets_extend.csv .
+  652  ls
+  653  cp /home/test/A1/downloaded_tweets_original.csv .
+  654  cp /home/test/A1/downloaded_tweets_extend_original.csv .
+  655  cp /home/test/A1/downloaded_tweets_extend_original_nolf.csv .
+  656  cp /home/test/A1/downloaded_tweets_extend_nolf.csv .
+  657  ls
+  658  head -n 10 downloaded_tweets_extend.csv 
+  659  head -n 10 downloaded_tweets_extend_nolf.csv 
+  660  exit
+  661  cd workplace
+  662  cd assignment
+  663  cd assignments
+  664  cd a1
+  665  ls
+  666  cat a1.txt
+  667  exit
+  668  ps aux
+  669  echo ?
+  670  echo *?
+  671  echo $?
+  672  top
+  673  cat /dev/tty
+  674  bc
+  675  exit
+  676  cd workplace 
+  677  cd assignments
+  678  cd a2
+  679  ls
+  680  rm downloaded_tweets_extend.csv
+  681  rm downloaded_tweets_extend_original.csv
+  682  ls 
+  683  head -n 6 downloaded_tweets_extend_nolf.csv 
+  684  head -n 6 downloaded_tweets_extend_original_nolf.csv 
+  685  head -n 6 downloaded_tweets_extend_original_nolf.csv  | cut -d "," -f 4 downloaded_tweets_extend_original_nolf.csv
+  686  cut -d "," -f 4 downloaded_tweets_extend_original_nolf.csv | head -n 6
+  687  head -n 6
+  688  head -n 6 downloaded_tweets_extend_original_nolf.csv
+  689  exit
+  690  head -n 6 downloaded_tweets_extend_original_nolf.csv
+  691  cd workplace
+  692  cd assignments
+  693  cd a2
+  694  head -n 6 downloaded_tweets_extend_original_nolf.csv
+  695  cut -d "," -f 6 downloaded_tweets_extend_original_nolf.csv | head -n 6
+  696  cut -d "," -f 6 downloaded_tweets_extend_original_nolf.csv | head -n 20
+  697  cut -d "	" -f 6 downloaded_tweets_extend_original_nolf.csv | head -n 20
+  698  cut -d "," -f 6 downloaded_tweets_extend_original_nolf.csv | head -n 20
+  699  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | head -n 20
+  700  cut -d "," -f 6 downloaded_tweets_extend_original_nolf.csv | head -n 20
+  701  cut -d "," -f 5 downloaded_tweets_extend_original_nolf.csv | head -n 20
+  702  head -n 6 downloaded_tweets_extend_original_nolf.csv
+  703  cut -f 5 downloaded_tweets_extend_original_nolf.csv | head -n 20
+  704  cut -d " " -f 5 downloaded_tweets_extend_original_nolf.csv | head -n 20
+  705  cut -d "," -f 5 downloaded_tweets_extend_original_nolf.csv | head -n 20
+  706  cut -d "," -f 8 downloaded_tweets_extend_original_nolf.csv | head -n 20
+  707  head -n 6 downloaded_tweets_extend_original_nolf.csv
+  708  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | uniq -c | sort
+  709  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | uniq -c | sort | head -n 15
+  710  cd workplace
+  711  cd assignments
+  712  cd a2
+  713  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | uniq -c | sort | head -n 15
+  714  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv |sort | uniq -c | head -n 15
+  715  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | sort | uniq -c | sort | head -n 15
+  716  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | sort | uniq -c | sort -rn | head -n 15
+  717  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | uniq -c | sort -rn | head -n 15
+  718  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | uniq -c | head -n 15
+  719  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | sort -u -rn | head -n 15
+  720  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | sort | uniq -c | sort -rn | head -n 15
+  721  cut -d "," -f 2 downloaded_tweets_extend_original_nolf.csv | sort | uniq -c | sort -rn | head -15
+  722  head -6 downloaded_tweets_extend_original_nolf.csv 
+  723  cut -d "," -f6 downloaded_tweets_extend_original_nolf.csv | head -10
+  724  cut -d "," -f6 downloaded_tweets_extend_original_nolf.csv | head -25
+  725  scp obeda@sjsu:/home/test/A1/downloaded_tweets_extend_nolf.txt .
+  726  scp obeda@172.31.197.164:/home/test/A1/downloaded_tweets_extend_nolf.txt .
+  727  cut -d "," -f6 downloaded_tweets_extend_original_nolf.csv | head -20
+  728  cd workplace
+  729  cd assignments
+  730  cd a2
+  731  cut -d "," -f6 downloaded_tweets_extend_original_nolf.csv | head -20
+  732  cut -d "," -f6 downloaded_tweets_extend_original_nolf.csv | head -30
+  733  cut -d "," -f6 downloaded_tweets_extend_original_nolf.csv | sort | uniq -c | sort -rn | head -15
+  734  head -2 downloaded_tweets_extend_original_nolf.csv 
+  735  head -5 downloaded_tweets_extend_original_nolf.csv 
+  736  cut -d "," -f6 downloaded_tweets_extend_original_nolf.csv | head -40
+  737  cd workpalce
+  738  cd workplace
+  739  cd assignments
+  740  cd a2
+  741  cut -d "," -f6 downloaded_tweets_extend_original_nolf.csv | head -40
+  742  cut -d -f6 downloaded_tweets_extend_original_nolf.csv | head -40
+  743  cut -f6 downloaded_tweets_extend_original_nolf.csv | head -40
+  744  cut -f6 downloaded_tweets_extend_original_nolf.csv | head -6
+  745  awk '$2' downloaded_tweets_extend_original_nolf.csv | head -6
+  746  awk -F ',' '$2' downloaded_tweets_extend_original_nolf.csv | head -6
+  747  awk -F ',' 'print $2' downloaded_tweets_extend_original_nolf.csv | head -6
+  748  awk -F ',' '{print $2}' downloaded_tweets_extend_original_nolf.csv | head -6
+  749  awk -F ',' '{print $2}' downloaded_tweets_extend_original_nolf.csv | head -30
+  750  awk -F ',' '{print $6}' downloaded_tweets_extend_original_nolf.csv | head -30
+  751  cut -d ',' -f6 downloaded_tweets_extend_original_nolf.csv | sort | uniq -c | sort -rn | head -20
+  752  cut -d ',' -f6 downloaded_tweets_extend_original_nolf.csv | sort -n | uniq -c | sort -rn | head -20
+  753  exit
+  754  cd workplace
+  755  cd assignments
+  756  cd a2
+  757  cut -f6 downloaded_tweets_extend_original_nolf.csv | head -10
+  758  cut -d ',' -f6 downloaded_tweets_extend_original_nolf.csv | head -10
+  759  cut -d ',' -f6 downloaded_tweets_extend_original_nolf.csv | head -20
+  760  exit
+  761  cd workplace
+  762  cd assignments
+  763  cd a2
+  764  ls
+  765  rm downloaded_tweets_extend_original_nolf.csv 
+  766  rm downloaded_tweets_extend_nolf.csv 
+  767  cp /home/test/A1/downloaded_tweets_extend_nolf.txt . 
+  768  cp /home/test/A1/downloaded_tweets_extend_nolf.txt .
+  769  cp downloaded_tweets_extend_original_nolf.txt .
+  770  cp /home/test/A1/downloaded_tweets_extend_nolf.txt .
+  771  cp /home/test/A1/downloaded_tweets_extend_nolf.csv .
+  772  cp /home/test/A2/downloaded_tweets_extend_nolf.txt .
+  773  cp /home/test/a1/downloaded_tweets_extend_nolf.txt .
+  774  cp /home/test/a2/downloaded_tweets_extend_nolf.txt .
+  775  cp /home/test/A1/downloaded_tweets_extend_original_nolf.txt .
+  776  cp /home/test/A1/downloaded_tweets_extend_nolf.txt
+  777  cp /home/test/A1/downloaded_tweets_extend_nolf.txt .
+  778  cp /home/test/A1/downloaded_tweets_extend_nolf.txt ~/A2/
+  779  cp /home/test/A1/downloaded_tweets_extend_nolf.txt .
+  780  cp /home/A1/downloaded_tweets_extend_nolf.txt .
+  781  cp /home/root/A1/downloaded_tweets_extend_nolf.txt .
+  782  cp /home/A1/downloaded_tweets_extend_nolf.txt .
+  783  cp /home/root/A1/downloaded_tweets_extend_nolf.txt .
+  784  cp /home/test/A1/downloaded_tweets_extend_nolf.txt .
+  785  cp /home/test/a1/downloaded_tweets_extend_nolf.txt .
+  786  cp /home/root/a1/downloaded_tweets_extend_nolf.txt .
+  787  cp /home/a1/downloaded_tweets_extend_nolf.txt .
+  788  cp /home/root/a1/downloaded_tweets_extend_nolf.txt .
+  789  ls /home/test/A1
+  790  ls /home/test/A1d
+  791  ls /home/test/A1
+  792  wc /home/test/A1
+  793  cp /home/root/a1/downloaded_tweets_extend_nolf.txt .
+  794  cd workplace
+  795  cd assignments
+  796  cd a2
+  797  cp /home/test/A1/downloaded_tweets_extend_nolf.txt .
+  798  cp /home/test/A1/downloaded_tweets_extend_original_nolf.txt .
+  799  cd ..
+  800  cd worksheets
+  801  ls
+  802  mkdir worksheet4
+  803  cd worksheet4
+  804  ls -lastr
+  805  ls -latr
+  806  cd ..
+  807  ls -latr
+  808  ls -r latr
+  809  cd worksheet4
+  810  alias l="ls -latr"
+  811  l
+  812  man ls
+  813  alias w="ls -la | wc"
+  814  w
+  815  ls
+  816  ls -l
+  817  ls -la
+  818  ls
+  819  vi .bashrc
+  820  mkdir CUSTOMERS
+  821  mkdir PRODUCTS
+  822  wget    https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Books_v1_02.tsv.gz .
+  823  cd ..
+  824  cd worksheet2
+  825  ls
+  826  cd .. 
+  827  cd worksheet4
+  828  ls
+  829  gunzip amazon_reviews_us_Books_v1_02.tsv.gz 
+  830  ls
+  831  cd workpalce 
+  832  cd workplace
+  833  cd assignments
+  834  cd a2
+  835  ls
+  836  cp /home/test/A1/downloaded_tweets_extend_original_nolf2.tsv .
+  837  cp /home/test/A1/downloaded_tweets_extend_nolf2.tsv .
+  838  ls
+  839  head -4 downloaded_tweets_extend_original_nolf2.tsv 
+  840  cut -d "	" -f2 downloaded_tweets_extend_original_nolf2.tsv | head -20
+  841  cut -d "	" -f2 downloaded_tweets_extend_original_nolf2.tsv | head -30
+  842  cut -d "	" -f2 downloaded_tweets_extend_original_nolf2.tsv |sort | uniq -c | sort -rn | head -10
+  843  cut -d "	" -f6 downloaded_tweets_extend_original_nolf2.tsv | head -30
+  844  cut -d "	" -f6 downloaded_tweets_extend_original_nolf2.tsv | head -60
+  845  cut -d "	" -f6 downloaded_tweets_extend_original_nolf2.tsv |sort | uniq -c | sort -rn | head -10
+  846  cut -d "	" -f6 downloaded_tweets_extend_original_nolf2.tsv |sort | uniq -c | sort -rn | head -20
+  847  head -6 downloaded_tweets_extend_nolf2.tsv 
+  848  ls
+  849  cd ..
+  850  cd a2
+  851  cut -d "	" -f5 downloaded_tweets_extend_nolf2.tsv | head -30
+  852  grep "retweeeted" downloaded_tweets_extend_nolf2.tsv | head -10
+  853  grep "retweeeted" downloaded_tweets_extend_nolf2.tsv | head -20
+  854  grep "type=retweeeted" downloaded_tweets_extend_nolf2.tsv | head -20
+  855  grep -w "type=retweeeted" downloaded_tweets_extend_nolf2.tsv | head -20
+  856  grep type=retweeeted downloaded_tweets_extend_nolf2.tsv | head -20
+  857  grep "type=retweeeted" downloaded_tweets_extend_nolf2.tsv | head -20
+  858  grep "308045021" downloaded_tweets_extend_nolf2.tsv | head -20
+  859  grep -e '[*type=retweeted]' downloaded_tweets_extend_nolf2.tsv | head -20
+  860  grep -e '[*type=retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f2 | sort | uniq -c | sort -rn | head -30
+  861  grep -e '[*type=retweeted]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' 'print $2 $5' | head -30
+  862  grep -e '[*type=retweeted]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' {print $2 $5} | head -30
+  863  grep -e '[*type=retweeted]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 $5}' | head -30
+  864  grep -e '[*retweeted]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 $5}' | head -30
+  865  grep -e '[*=retweeted]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 $5}' | head -30
+  866  grep -E '[*retweeted]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 $5}' | head -30
+  867  grep -E '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 $5}' | head -30
+  868  grep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 $5}' | head -30
+  869  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 $5}' | head -30
+  870  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f2 | sort | uniq -c | sort -rn | head -30
+  871  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d " " -f2 | sort | uniq -c | sort -rn | head -30
+  872  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f2 | sort | uniq -c | sort -rn | head -30
+  873  cut -d "	" -f4 downloaded_tweets_extend_nolf2.tsv | head -30
+  874  cut -d "	" -f4 downloaded_tweets_extend_nolf2.tsv | sort -k | uniq -c | sort -rn| head -30
+  875  cut -d "	" -f4 downloaded_tweets_extend_nolf2.tsv | sort | uniq -c | sort -rn| head -30
+  876  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | head -30
+  877  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '/t' '{print $2 $4 $5}' | head -30
+  878  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 $4 $5}' | head -30
+  879  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '/t' '{print $2 " " $4 " " $5}' | head -30
+  880  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '/t' '{print $2 , $4 , $5}' | head -30
+  881  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '/t' '{print $2, $4, $5}' | head -30
+  882  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '/t' '{print $2 $4 $5}' | head -30
+  883  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 " " $4 $5}' | head -30
+  884  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 " " $4 " " $5}' | head -30
+  885  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 "      " $4 "     " $5}' | head -30
+  886  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f4 | sort | uniq -c | sort -rn |  head -30
+  887  cut -d "	" -f6 downloaded_tweets_extend_nolf2.tsv | sort | uniq -c | sort -rn | head -30
+  888  grep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | awk -F '\t' '{print $2 "      " $4 "     " $5}' | head -30
+  889  grep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f4 | sort | uniq -c | sort -rn | head -30
+  890  cd workplace
+  891  cd assignments
+  892  cd a2
+  893  cut -d "	" -f2 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -rn | head -11
+  894  cut -d "	" -f6 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -rn | head -11
+  895  grep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f2 | sort | uniq -c | sort -rn | head -11
+  896  cut -d "	" -f4 downloaded_tweets_extend_nolf2.tsv | sort | uniq -c | sort -rn | head -31
+  897  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f4 | sort | uniq -c | sort -rn | head -31
+  898  grep -e '\[*replied_to\]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f4 | sort | uniq -c | sort -rn | head -31
+  899  grep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f4 | sort | uniq -c | sort -rn | head -31
+  900  cut -d "	" -f2 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -rn | head -11
+  901  cut -d "	" -f6 downloaded_tweets_extend_original_nolf2.tsv | sort | uniq -c | sort -rn | head -11
+  902  grep -e '\[*retweeted]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f2 | sort | uniq -c | sort -rn | head -11
+  903  cut -d "	" -f4 downloaded_tweets_extend_nolf2.tsv | sort | uniq -c | sort -rn | head -31
+  904  grep -e '\[*retweeted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f4 | sort | uniq -c | sort -rn | head -31
+  905  grep -e '\[*replied_to\]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f4 | sort | uniq -c | sort -rn | head -31
+  906  grep -e '\[*quoted\]' downloaded_tweets_extend_nolf2.tsv | cut -d "	" -f4 | sort | uniq -c | sort -rn | head -31
+  907  cd workplace 
+  908  cd assignments
+  909  cd a2
+  910  script a2.txt
+  911  nano a2.txt
+  912  cat a2.txt
+  913  nano a2.txt
+  914  cat a2.txt
+  915  vi a2.txt
+  916  cat a2.txt
+  917  vi a2.txt
+  918  cat a2.txt
+  919  vi a2.txt
+  920  cat a2.txt
+  921  git status
+  922  cd ..
+  923  git add a2
+  924  git status
+  925  cd a2
+  926  rm downloaded_tweets_extend_original_nolf2.tsv 
+  927  rm downloaded_tweets_extend_nolf2.tsv 
+  928  cd ..
+  929  git status
+  930  git add a2
+  931  git status
+  932  git commit -m "commit assignment2"
+  933  git push 
+  934  cd workplace
+  935  cd assignments
+  936  cd ..
+  937  cd worksheets
+  938  ls
+  939  cd worksheet4
+  940  ls
+  941  head -4 ama
+  942  head -4 amazon_reviews_us_Books_v1_02.tsv 
+  943  cut -d "	" -f2 amazon_reviews_us_Books_v1_02.tsv | head -4
+  944  awk -F '/t' '{print $2 "      "  $8}' amazon_reviews_us_Books_v1_02.tsv | head -5
+  945  awk -F '\t' '{print $2 "      "  $8}' amazon_reviews_us_Books_v1_02.tsv | head -5
+  946  awk -F '\t' '{print $2 "      "  $9}' amazon_reviews_us_Books_v1_02.tsv | head -5
+  947  ls tmux
+  948  tmux ls
+  949  ./configure
+  950  tmux --help
+  951  tmux ls
+  952  ls
+  953  cd workplace
+  954  cd worksheets
+  955  cd worksheet4
+  956  ls
+  957  cat .bashrc
+  958  head -20 cmds.log
+  959  cat cmds.log
+  960  vi cmds.log
+  961  head -4 amazon_reviews_us_Books_v1_02.tsv 
+  962  grep 12076615 amazon_reviews_us_Books_v1_02.tsv | cut -f9 > 12076615.txt
+  963  ls
+  964  mv 12076615.txt CUSTOMERS
+  965  ls
+  966  cd CUSTOMERS
+  967  ls
+  968  cat 12076615.txt 
+  969  grep 12703090 amazon_reviews_us_Books_v1_02.tsv | cut -f9 > 12703090.txt
+  970  cd ..
+  971  grep 12703090 amazon_reviews_us_Books_v1_02.tsv | cut -f9 > CUSTOMERS/12703090.txt
+  972  grep 12257412 amazon_reviews_us_Books_v1_02.tsv | cut -f9 > CUSTOMERS/12257412.txt
+  973  cat CUSTOMERS/12257412.txt
+  974  cat CUSTOMERS/12703090.txt
+  975  head -7 amazon_reviews_us_Books_v1_02.tsv 
+  976  grep 0373836635 amazon_reviews_us_Books_v1_02.tsv | cut -f6 > PRODUCTS/0373836635.txt
+  977  cat PRODUCTS/0373836635.txt
+  978  rm PRODUCTS/0373836635.txt 
+  979  grep 0373836635 amazon_reviews_us_Books_v1_02.tsv | cut -f9 > PRODUCTS/0373836635.txt
+  980  cat PRODUCTS/0373836635.txt
+  981  echo PRODUCTS/0373836635.txt
+  982  cat
+  983  cat PRODUCTS/0373836635.txt
+  984  ls CUSTOMERS
+  985  cat CUSTOMERS/12076615.txt + cat CUSTOMERS/12257412.txt | bs
+  986  cat CUSTOMERS/12076615.txt + cat CUSTOMERS/12257412.txt | bc
+  987  "cat CUSTOMERS/12076615.txt + cat CUSTOMERS/12257412.txt" | bc
+  988  echo $($(CUSTOMER/12076615.txt)+$(CUTSOMERS/12257412.txt)/6) | BC
+  989  echo $($(CUSTOMER/12076615.txt)+$(CUTSOMERS/12257412.txt)/6) | bc
+  990  echo $($(CUSTOMERS/12076615.txt)+$(CUTSOMERS/12257412.txt)/6) | bc
+  991  echo $($(CUSTOMERS/12076615.txt)+$(CUSTOMERS/12257412.txt)/6) | bc
+  992  echo $($(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12257412.txt)/6) | bc
+  993  echo $($(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12257412.txt)) | bc
+  994  echo "$($(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12257412.txt))" | bc
+  995  echo "$(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12257412.txt)" | bc
+  996  echo "($(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12257412.txt))/2" | bc
+  997  vi .bashrc
+  998  cd workplace
+  999  cd worksheets
+ 1000  cd worksheet4
+ 1001  ls
+ 1002  mr CUSTOMERS
+ 1003  rm CUSTOMERS
+ 1004  rm -d CUSTOMERS
+ 1005  rmdir CUSTOMERS
+ 1006  rm -d CUSTOMERS
+ 1007  rmdir rm -r CUSTOMERS
+ 1008  rmdir -r CUTSOMERS
+ 1009  rmdir -r CUSTOMERS
+ 1010  rm -r CUSTOMERS
+ 1011  rm -r PRODUCTS
+ 1012  LS
+ 1013  ls
+ 1014  script ws4.txt
+ 1015  vi ws4.txt
+ 1016  cat ws4.txt
+ 1017  2R
+ 1018  vi ws4.txt
+ 1019  wc ws4.txt
+ 1020  ls PRODUTS
+ 1021  ls
+ 1022  ls PRODUCTS
+ 1023  cat PRODUCTS/0262181533.txt 
+ 1024  cat PRODUCTS/0316769487.txt 
+ 1025  rm PRODUCTS/0316769487.txt 
+ 1026  ls PRODUCTS
+ 1027  cat PRODUCTS/0373836635.txt 
+ 1028  head -9 amazon_reviews_us_Books_v1_02.tsv 
+ 1029  grep 1581603681 amazon_reviews_us_Books_v1_02.tsv | cut -f9 
+ 1030  grep 1581603681 amazon_reviews_us_Books_v1_02.tsv | cut -f9 > PRODUCTS/1581603681.txt
+ 1031  ls PRODUCTS
+ 1032  paste -sd+ PRODUCTS/1581603681.txt
+ 1033  paste -sd/ PRODUCTS/1581603681.txt
+ 1034  paste -sd+ PRODUCTS/1581603681.txt
+ 1035  echo "paste -sd+ PRODUCTS/1581603681.txt " |bc
+ 1036  echo "paste -sd+ PRODUCTS/1581603681.txt " | bc
+ 1037  echo "$(paste -sd+ PRODUCTS/1581603681.txt)" | bc
+ 1038  echo "$(paste -sd+ PRODUCTS/1581603681.txt)+$(paste -sd+ PRODUCTS/0373836635.txt)+$(paste -sd+ PRODUCTS/0262181533.txt)" | bc
+ 1039  cat PRODUCTS/0262181533.txt 
+ 1040  cat PRODUCTS/0373836635.txt 
+ 1041  echo "$(paste -sd+ PRODUCTS/1581603681.txt)+$(paste -sd+ PRODUCTS/0373836635.txt)+$(paste -sd+ PRODUCTS/0262181533.txt)+$(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12703090.txt)+$(cat CUSTOMERS/12257412.txt)" | bc
+ 1042  echo "$(paste -sd+ PRODUCTS/1581603681.txt)+$(paste -sd+ PRODUCTS/0373836635.txt)+$(paste -sd+ PRODUCTS/0262181533.txt)+$(paste -sd+ CUSTOMERS/12076615.txt)+$(paste -sd+ CUSTOMERS/12703090.txt)+$(paste -sd+ CUSTOMERS/12257412.txt)" | bc
+ 1043  ls CUSTOMERS
+ 1044  cat CUSTOMERS
+ 1045  cat CUSTOMERS/12257412.txt 
+ 1046  cat CUSTOMERS/12076615.txt 
+ 1047  cat CUSTOMERS/12703090.txt 
+ 1048  script -a ws4.txt
+ 1049  vi ws4.txt
+ 1050  cat ws4.txt
+ 1051  vi ws4.txt
+ 1052  history > cmds.log

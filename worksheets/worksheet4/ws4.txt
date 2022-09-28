@@ -43,25 +43,11 @@ cat: PRODUCTS/037386635.txt: No such file or directory
 2
 ]0;obeda@sjsu:~/workplace/worksheets/worksheet4[obeda@sjsu worksheet4]$ 
 ]0;obeda@sjsu:~/workplace/worksheets/worksheet4[obeda@sjsu worksheet4]$ 
-]0;obeda@sjsu:~/workplace/worksheets/worksheet4[obeda@sjsu worksheet4]$ 
-Script started on 2022-09-28 01:41:10-04:00
-]0;obeda@sjsu:~/workplace/worksheets/worksheet4[obeda@sjsu worksheet4]$ echo "$(paste -sd+ PRODUCTS/1581603681.txt)+$(paste -sd+ PRODUCTS/0373836635.txt)+$(paste -sd+ PRODUCTS/0262181533.txt)+$(paste -sd+ CUSTOMERS/12076615.txt)+$(paste -sd+ CUSTOMERS/12703090.txt)+$(paste -sd+ CUSTO [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[KO
-> MERS/12257412.txt)" | bc
-paste: CUSTO: No such file or directory
-bash: MERS/12257412.txt: No such file or directory
-(standard_in) 2: syntax error
-]0;obeda@sjsu:~/workplace/worksheets/worksheet4[obeda@sjsu worksheet4]$ echo "$(paste -sd+ PRODUCTS/1581603681.txt)+$(paste -sd+ PRODUCTS/0373836635.txt)+$(paste -sd+ PRODUCTS/0262181533.txt)+$(paste -sd+ CUSTOMERS/12076615.txt)+$(paste -sd+ CUSTOMERS/12703090.txt)+$(paste -sd+ CUSTO 
-MERS/12257412.txt)" | bc[A[A[C[C[C[C[Ccat PRODUCTS/0262181533.txt [K
-[K
-[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[17Pls PRODUCTScat CUSTOMERS/12703090.txt 257412[C[C[C[C[C076615[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[15Pls CUSTOMERSecho "$(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12703090.txt)+$(cat CUSTOMERS/12257412.txt)+$(cat PRODUCTS/0373836635.txt)+$(cat PRODUCTS/0262181533.txt)+$(cat PRODUCTS/0316769487.txt)" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@($(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12703090.txt)+$(cat CUSTOMERS/12257412.txt)+$(cat PRODUCTS/0373836635.txt)+$(cat PRODUCTS/0262181533.txt)+$(cat PRODUCTS/0316769487.txt)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls PRODUCTS[KCUSTOMERS[K CUSTOMERS[1PPRODUCTSecho "($(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12703090.txt)+$(cat CUSTOMERS/12257412.txt)+$(cat PRODUCTS/0373836635.txt)+$(cat PRODUCTS/0262181533.txt)+$(cat PRODUCTS/0316769487.txt))" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P$(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12703090.txt)+$(cat CUSTOMERS/12257412.txt)+$(cat PRODUCTS/0373836635.txt)+$(cat PRODUCTS/0262181533.txt)+$(cat PRODUCTS/0316769487.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls CUSTOMERS[Kecho "$(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12703090.txt)+$(cat CUSTOMERS/12257412.txt)+$(cat PRODUCTS/0373836635.txt)+$(cat PRODUCTS/0262181533.txt)+$(cat PRODUCTS/0316769487.txt)" | bc[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2@($(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12703090.txt)+$(cat CUSTOMERS/12257412.txt)+$(cat PRODUCTS/0373836635.txt)+$(cat PRODUCTS/0262181533.txt)+$(cat PRODUCTS/0316769487.txt)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[2P$(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12703090.txt)+$(cat CUSTOMERS/12257412.txt)+$(cat PRODUCTS/0373836635.txt)+$(cat PRODUCTS/0262181533.txt)+$(cat PRODUCTS/0316769487.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls CUSTOMERS[Kcat CUSTOMERS/12076615.txt 257412[C[C[C[C[C703090[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[16Pls PRODUCTScat PRODUCTS/0262181533.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "$(paste -sd+ PRODUCTS/1581603681.txt)+$(paste -sd+ PRODUCTS/0373836635.txt)+$(paste -sd+ PRODUCTS/0262181533.txt)+$(paste -sd+ CUSTOMERS/12076615.txt)+$(paste -sd+ CUSTOMERS/12703090.txt)+$(paste -sd+ CUSTO 
-MERS/12257412.txt)" | bc[A[A[C[K
-[K
-[K[A[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cecho "$(paste -sd+ PRODUCTS/1581603681.txt)+$(paste -sd+ PRODUCTS/0373836635.txt)+$(paste -sd+ PRODUCTS/0262181533.txt)+$(paste -sd+ CUSTOMERS/12076615.txt)+$(paste -sd+ CUSTOMERS/12703090.txt)+$(paste -sd+ CUSTO MERS/12257412.txt)" | bc
-34
+
+
+Script started on 2022-09-28 01:57:59-04:00
+]0;obeda@sjsu:~/workplace/worksheets/worksheet4[obeda@sjsu worksheet4]$ echo "($(paste -sd+ PRODUCTS/1581603681.txt)+$(paste -sd+ PRODUCTS/0373836635.txt)+$(paste -sd+ PRODUCTS/0262181533.txt)+$(cat CUSTOMERS/12076615.txt)+$(cat CUSTOMERS/12703090.txt)+$(cat  CUSTOMERS/12257412.txt))/6" | bc
+5
 ]0;obeda@sjsu:~/workplace/worksheets/worksheet4[obeda@sjsu worksheet4]$ exit
 
-Script done on 2022-09-28 01:42:16-04:00
-
-
-
-=> Yes, I think the mean helpfulness value may differ significantly between customers or products because some customers and products have many more helpful_votes than others
+Script done on 2022-09-28 01:58:06-04:00

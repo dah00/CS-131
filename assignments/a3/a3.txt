@@ -1,0 +1,190 @@
+Script started on 2022-10-12 00:54:41-04:00
+1. 
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ awk-F '\t' ''$'6'!'='"'"'[C downloaded_tweets_extend_original_nolf2.tsv | awk -F '\t' ''{'}'p}'r}'i}'n}'t}' }'$}'6}'[C[C }'"}',}'"}' }'$}'2}'[C[C  [K| sort -k 1n > Q1.s[Kcsv
+bash: awk-F: command not found
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ awk-F '\t' '$6!=""' downloaded_tweets_extend_original_nolf2.tsv | awk -F '\t' '{print $6 "," $2}' | sort -k 1n > Q1.csv[1@ 
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ tail[K[K[K[Khead -10 q[KQ`[K1.csv 
+in_reply_to_user_id,author
+1688,1688
+1688,1688
+1688,1688
+1688,1688
+1688,1688
+16635277,1.32151E+18
+160856325,7.66136E+17
+582414351,8.82854E+17
+785406,785406
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ head -10 Q1.csv awk -F '\t' '$6!=""' downloaded_tweets_extend_original_nolf2.tsv | awk -F '\t' '{print $6 "," $2}' | sort -k 1n > Q1.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cexit[Kcat a2.txt [5@tail -40[C[C[C[C[C[C[C[C3[C[C[C[C[C[C[C[C[Ccd a2[K..[1Pexittail -25 a2.txt1[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[Cls[Kcd a2.../gnuplot ls[Kcp ../../q2.csv .d src[Kgnuplot-5.4.2/[6Pat q2.csv awk -F " " '{print $2}' Q2.csv > q2.csv[K[K[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[12Pcat Q2.csv [6Pd .../gnuplot ls[Kcp ../../Q2.csv .ls[Kcd srcgnuplot-5.4.2/pwd[K[1Plsawk -F, '{if($1!=$2) {print}}' Q1.csv | uniq -c | sort -k 1 -rn | awk -F " " '{if($1>=3) {print}}' > Q2.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccd a3[Kssignments[2Pworkplace~[K.../gnuplot cd /etc/gnuplot-5.4.4/src/[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cawk -F, '{if($1!=$2) {print}}' Q1.csv | uniq -c | sort -k 1 -rn | awk -F " " '{if($1>=3) {print}}' | wc -l[K-bc[K|  head -30[4P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead -30[Ktail[C[C[C[C[3Pwc -l[1P[C[C[C[C[C[C[C[C[Ctail -30 [15P[C[C[C[C[C[C[C[C[Chead[C[C[C[C[C[11Phead -40[2Pwc -l [51@uniq -c | sort -k 1rn | awk -F " " '{if($1>=3) {print}}'[C| wc -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat Q1.csv | wc -l[Kawk -F '\t' '$6!=""' downloaded_tweets_extend_original_nolf2.tsv | awk -F '\t' '{print $6 "," $2}' | sort -k 1rn > Q1.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm Q1.csv [K[6@head -30[C[C[C[C[C[C[C[Ccat Q1.csv | wc -lawk -F '\t' '$6!=""' downloaded_tweets_extend_original_nolf2.tsv | awk -F '\t' '{print $6 "," $2}' | awk -F, '{if($1!=$2) {print}}' | sort -k 1rn > Q1.csv[2P{if($1!=$2) {print}}[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm Q1.csv [K[Kawk -F, {if($1!=$2) {print}} Q1.csv | head -30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Pcat Q1.csv | wc -luniq -c Q1.csv | sort -k 1rn | awk -F " " '{if($1>=3 && $2!=$3) {print}}' | tail -20[3Pwc -l[10P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -8040head[C[C[C[Chead -40[K[K| sort -k 1rn | head -40[35@awk -F " " '{if($1>=3) {print}}' | [C[C[C[C[C[C[C[Ctail[C[C[C[C80[3Pwc -l[10@ && $2!=$3[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ctail -20[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat Q1.csv | wc -l[Kawk -F , {if($1!=$2) {print}} Q1.csv | head -30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[29Pcat Q1.csv | wc -luniq -c Q1.csv | sort -k 1rn | awk -F " " '{if($1>=3 && $2!=$3) {print}}' | tail -20[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat Q1.csv | wc -l[Kawk -F , {if($1!=$2) {print}} Q1.csv | head -30[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Crm Q1[K.csv awk -F '\t' '$6!=""' downloaded_tweets_extend_original_nolf2.tsv | awk -F '\t' '{print $6 "," $2}' | awk -F, {if($1!=$2) {print}} | sort -k 1rn > Q1.csv[2@'{if($1!=$2) {print}}'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat Q1.csv | wc -l[K[2Phead -30 Q1.csv [6Prm[C[C[C[C[C[C[C[Cawk -F '\t' '$6!=""' downloaded_tweets_extend_original_nolf2.tsv | awk -F '\t' '{print $6 "," $2}' | sort -k 1rn > Q1.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat Q1.csv | wc -l[K[86@awk -F, '{if($1!=$2) {print}}' Q1.csv | uniq -c | sort -k 1rn | awk -F " " '{if($1>=3) {print}}'[C[C[C[C[C[C[C[C[Kwc -l [K[51@uniq -c | sort -k 1rn | awk -F " " '{if($1>=3) {print}}'[C| wc -l
+17
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ awk -F, '{if($1!=$2) {print}}' Q1.csv | uniq -c | sort -k 1rn | awk -F " " '{if($1>=3) {print}}' | wc -l[K[K[K[K[K[K[K> Q1.csv
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ awk -F, '{if($1!=$2) {print}}' Q1.csv | uniq -c | sort -k 1rn | awk -F " " '{if($1>=3) {print}}' > Q1.csv[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat q[KQ1.csv 
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ cat Q1.csv awk -F, '{if($1!=$2) {print}}' Q1.csv | uniq -c | sort -k 1rn | awk -F " " '{if($1>=3) {print}}' > Q1.csv[1P| wc -l[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead -10 Q1.csv [Kawk -F '\t' '$6!=""' downloaded_tweets_extend_original_nolf2.tsv | awk -F '\t' '{print $6 "," $2}' | sort -k 1n > Q1.csv
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ cat [K[K[K[Khead- [K[K -10 Q1.csv 
+in_reply_to_user_id,author
+1688,1688
+1688,1688
+1688,1688
+1688,1688
+1688,1688
+16635277,1.32151E+18
+160856325,7.66136E+17
+582414351,8.82854E+17
+785406,785406
+
+2. 
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ head -10 Q1.csv awk -F '\t' '$6!=""' downloaded_tweets_extend_original_nolf2.tsv | awk -F '\t' '{print $6 "," $2}' | sort -k 1n > Q1.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat Q1.csv [Kawk -F '\t' '$6!=""' downloaded_tweets_extend_original_nolf2.tsv | awk -F '\t' '{print $6 "," $2}' | sort -k 1n > Q1.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat Q1.csv [Kawk -F, '{if($1!=$2) {print}}' Q1.csv | uniq -c | sort -k 1rn | awk -F " " '{if($1>=3) {print}}' > Q1.csv[1P.csv2.csv
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ awk -F, '{if($1!=$2) {print}}' Q1.csv | uniq -c | sort -k 1rn | awk -F " " '{if($1>=3) {print}}' > Q2.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kawk -F, '{if($1!=$2) {print}}' Q1.csv | uniq -c | sort -k 1rn | awk -F " " '{if($1>=3) {print}}' > Q2.csv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chead -10 Q1.csv [K[C[C[1P[1@2
+     11 3453306553,1573800344
+     10 19739126,1921951394
+      8 29447428,94350709
+      6 3453306553,183024552
+      6 3453306553,90107770
+      5 1387010761994682371,4830874006
+      5 1921951394,1389619592130088976
+      5 938494109844729856,2264401871
+      4 21525682,997519418492993537
+      4 29447428,517105402
+
+4.
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ grep -e''\'[']' '\[]'[C[C[C*]'r]'e]'p]'l]'i]'e]'d]'_]'t]'o]'\]'[C[C downloaded_tweets_extend_original_nolf2.tsv | cut -d ""       "[C -f4 | sort | uniq -c | sort -rn | head =[K-4[K31 > q[KQ4.tsv[C[C[C[C
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ head -Q5[K4[1P4[C[K10 Q4.tsv 
+     90 LongCovid
+     84 COVID19
+     82 RepublicanTTTTTTPredators
+     81 auspol
+     52 UPDATE
+     45 Ukraine
+     42 BREAKING
+     26 ableg
+     21 cdnpoli
+     20 Omicron
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ cut -d ""       "[C -f4 downloaded_tweets_extend_nolf2.tsv | sort | uniq -c | sort -rn | head -31 |[K> q[KQ5_a2.tsv
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ head-[K -10 Q5_a2.tsv 
+  20647 
+   1266 Ukraine
+    945 COVID19
+    870 LongCovid
+    833 "FBPE,FollowBackFriday"
+    320 Russia
+    305 BREAKING
+    257 PMQs
+    208 auspol
+    181 StandWithUkraine
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ diif [K[K[Kff q[KQ4.tsv Q5_a2.tsv 
+1,31c1,31
+<      90 LongCovid
+<      84 COVID19
+<      82 RepublicanTTTTTTPredators
+<      81 auspol
+<      52 UPDATE
+<      45 Ukraine
+<      42 BREAKING
+<      26 ableg
+<      21 cdnpoli
+<      20 Omicron
+<      20 BA2
+<      19 StandWithUkraine
+<      19 COVIDisAirborne
+<      19 COVID
+<      18 AlboForPM
+<      15 Russia
+<      14 Brexit
+<      11 IStandWithUkraine
+<      10 "Russia,Ukraine"
+<      10 Mariupol
+<       9 PMQs
+<       9 January6th
+<       9 Insiders
+<       9 CovidIsNotOver
+<       8 USS
+<       8 RememberInNovember
+<       8 Kyiv
+<       8 JohnsonOut
+<       8 DemVoice1
+<       8 COVID19AB
+<       8 bcpoli
+---
+>   20647 
+>    1266 Ukraine
+>     945 COVID19
+>     870 LongCovid
+>     833 "FBPE,FollowBackFriday"
+>     320 Russia
+>     305 BREAKING
+>     257 PMQs
+>     208 auspol
+>     181 StandWithUkraine
+>     177 AmiesMovieRating
+>     176 Omicron
+>     168 Mariupol
+>     136 Kyiv
+>     135 BA2
+>     122 "Russia,Ukraine"
+>     120 COVID
+>     118 Bales2022FilmChallenge
+>     111 Putin
+>     108 COVIDisAirborne
+>     107 "PutinHitler,StandWithUkraine,PutinHitler,PutinWarCriminal,StopPutinNOW,RussiaSanctions,BoycottRussia"
+>     107 ClimateCrisis
+>     106 BoycottATP
+>     105 Russian
+>      98 "cathrynhartt,harttandsoul,actor,actorslife"
+>      97 Covid19
+>      93 Partygate
+>      87 TikTok
+>      85 longcovid
+>      80 Ottawa
+>      79 Brexit
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ cat W[KQ2.csv 
+     11 3453306553,1573800344
+     10 19739126,1921951394
+      8 29447428,94350709
+      6 3453306553,183024552
+      6 3453306553,90107770
+      5 1387010761994682371,4830874006
+      5 1921951394,1389619592130088976
+      5 938494109844729856,2264401871
+      4 21525682,997519418492993537
+      4 29447428,517105402
+      4 45379403,1240682348120866816
+      3 1098819491780153345,1290232189615894531
+      3 1218721688738615297,922294461186453504
+      3 1319916075476262914,1429016867532849153
+      3 29447428,728273994
+      3 3453306553,761819600568717312
+      3 843433646962999296,1270133776748855304
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ cat Q4.tsv 
+     90 LongCovid
+     84 COVID19
+     82 RepublicanTTTTTTPredators
+     81 auspol
+     52 UPDATE
+     45 Ukraine
+     42 BREAKING
+     26 ableg
+     21 cdnpoli
+     20 Omicron
+     20 BA2
+     19 StandWithUkraine
+     19 COVIDisAirborne
+     19 COVID
+     18 AlboForPM
+     15 Russia
+     14 Brexit
+     11 IStandWithUkraine
+     10 "Russia,Ukraine"
+     10 Mariupol
+      9 PMQs
+      9 January6th
+      9 Insiders
+      9 CovidIsNotOver
+      8 USS
+      8 RememberInNovember
+      8 Kyiv
+      8 JohnsonOut
+      8 DemVoice1
+      8 COVID19AB
+      8 bcpoli
+]0;obeda@sjsu:~/workplace/assignments/a3[obeda@sjsu a3]$ exit
+
+Script done on 2022-10-12 01:06:58-04:00

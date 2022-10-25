@@ -1,0 +1,33 @@
+Script started on 2022-10-25 17:49:36-04:00
+kobeda@sjsu:~/workplace/worksheets/worksheet7\[obeda@sjsu worksheet7]$ grep 0811828964 amazon_reviews_us_Books_v1_02.tsv | cut -d "   " -f14 > review_body.txt
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+kobeda@sjsu:~/workplace/worksheets/worksheet7\[obeda@sjsu worksheet7]$ grep 0811828964 amazon_reviews_us_Books_v1_02.tsv | cut -d "   " -f14 > review_body.txt[1P[1P[1P[3@   
+kobeda@sjsu:~/workplace/worksheets/worksheet7\[obeda@sjsu worksheet7]$ cat review_body.txt | wc -l
+73
+kobeda@sjsu:~/workplace/worksheets/worksheet7\[obeda@sjsu worksheet7]$ head -5 review_body.txt 
+If you are looking for something to stimulate your brain, this isn't it.  However, if you are just looking for a good laugh, you'll enjoy The Bad Girl's Guide.  It's funny and light, and definitely a good way to pass a little bit of time.
+It's nice to have a cheeky-style self-help book.  Tuttle's irreverence is refreshing and a couple of her lines made me laugh.  Nonetheless, it's forgettable nonsense and at $14, a tad too expensive for what is offered the reader.
+This book is the perfect summer read - light, funny, entertaining, sometimes inspiring.  You can pick it up at any point in the book and begin reading, forget about marking your page, it's not that kind of book.   <br /> <br />I can't wait to read Cameron Tuttle's other Bad Girl books - Viva la Bad Girl!
+I adored this book! I passed it around to all of my friends and the all enjoyed it immensely. Great writing, very funny. Worth my time,  worth yours.
+I wasn't expecting &quot;Catcher in the Rye&quot;, just a few laughs.    I was very disappointed.    It wasn't funny at all.    Keep your money, but if you really want to buy it, buy mine.
+kobeda@sjsu:~/workplace/worksheets/worksheet7\[obeda@sjsu worksheet7]$ 
+kobeda@sjsu:~/workplace/worksheets/worksheet7\[obeda@sjsu worksheet7]$ 
+kobeda@sjsu:~/workplace/worksheets/worksheet7\[obeda@sjsu worksheet7]$ sed -e 's|<..*/>||g' -e 's/[,.;]//g' -e 's/it//g' -e 's/and//g' -e 's/or//g' -e 's/if//g' -e 's/in//g' -e 's/?//g' review_body.txt > output.txt
+kobeda@sjsu:~/workplace/worksheets/worksheet7\[obeda@sjsu worksheet7]$ cat [K[K[K[Khead -5 [K[K1- output.txt 
+head: invalid trailing option -- -
+Try 'head --help' for more information.
+kobeda@sjsu:~/workplace/worksheets/worksheet7\[obeda@sjsu worksheet7]$ head -1- output.txt [1P[1@0
+If you are lookg f somethg to stimulate your bra this isn't   However  you are just lookg f a good laugh you'll enjoy The Bad Girl's Guide  It's funny  light  defely a good way to pass a ltle b of time
+It's nice to have a cheeky-style self-help book  Tuttle's irreverence is refreshg  a couple of her les made me laugh  Nonetheless 's fgettable nonsense  at $14 a tad too expensive f what is offered the reader
+This book is the perfect summer read - light funny entertag sometimes spirg  You can pick  up at any pot  the book  beg readg fget about markg your page 's not that kd of book   I can't wa to read Cameron Tuttle's other Bad Girl books - Viva la Bad Girl!
+I aded this book! I passed  around to all of my friends  the all enjoyed  immensely Great wrg very funny Wth my time  wth yours
+I wasn't expectg &quotCatcher  the Rye&quot just a few laughs    I was very disappoted    It wasn't funny at all    Keep your money but  you really want to buy  buy me
+A great book that shows how serious le doesn't have to be Yes some of the ideas are a ltle out there but they show that thgs sometimes aren't as stressful as we make them to be Thgs that are covered are how to lose a looser how to sce me free drks fms of alternative datg  much me All the advice is very fun  very wty This book is not f the ultra conservative serious  uptight Is f the person who likes to laugh  thk about ways to get whatever you want Even  these are not logical ways the seed is planted I have to adm I've sced many free drks from her great  pracical methods!
+TWICE  the whole book It is a cute book but not really funny n usefull  anywayunless your 18 then you might get away wh some of the stunts  here I thk I found 3 fairly good tips other than that I was done wh the book  under an hour  can't wa to get rid of 
+I bought this book after seeg a review  a magaze  I didn't put  down until I'd fished  The auth offers a fresh perspective  crazy tips on how to be the best  badest girl I cried from laughter  then went out  bought 3 copies to give to my best female friends Another book that I found tense was &quotHe Never Called Aga&quot Now after readg the other book I could really enjoy &quotThe Bad Girl's Guide&quot Yes!
+This book was credibly spontaneous It makes you laugh like crazy  you can actually take most of the advice given No the advice isn't spirual  what  takes to be a woman 's just a lot of fun   helps you brg the goodness  childhood out of you You responsibly decide what advice you'd prefer to take [though A LOT tend to be very jokeful  not actually serious] It's a cute book you can read  you just need a getaway from actually beg responsible  serious 24/7
+Belleluv had  right Hilarious  you get  enjoy Cameron Tuttle's sense of hum This book never fails to make me laugh<BR>Just the chapter on beg bad at wk alone is wth s price<BR>Just thkg of dog some of these thgs to my boss makes the stress melt away<BR>Every girl whether she acts on   not Can be a &quotbad girl&quot at heart  celebrate the power of beg Baaaaad!
+kobeda@sjsu:~/workplace/worksheets/worksheet7\[obeda@sjsu worksheet7]$ exit
+
+Script done on 2022-10-25 17:51:52-04:00

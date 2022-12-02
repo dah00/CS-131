@@ -1,0 +1,101 @@
+Script started on 2022-11-01 19:16:40-04:00
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ awk -F ""t"[1P"\"t"[C ''$'1'2'='"'Y'"'[C amazon_reviews_us_Books_v1_02.tsv > verified.txt
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ awk -F "\t" '$12="Y"' amazon_reviews_us_Books_v1_02.tsv > verified.txt[1P[1@N[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuverified.txtnverified.txt
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ cat verified.txt | wc -l
+3105521
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ cat verified.txt | wc -l[1@u[1@n
+3105521
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ cut -d "       " -f14 verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g'' -e 's/for//g' > formatedverified.txt[C[C[C[Ctedverified.txt[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+cut: the delimiter must be a single character
+Try 'cut --help' for more information.
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ cut -d "       " -f14 verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g'' -e 's/for//g' > formattedverified.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e '[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/f[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/fo[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for/[C[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g'[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' >[1P formattedverified.txt[A[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > [1Pformattedverified.txt[A[C[C[C[C[C[C[Cverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > f[1Pormattedverified.txt[A[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > fo[1Prmattedverified.txt[A[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > for[1Pmattedverified.txt[A[C[C[C[C[C[C[C verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > form[1Pattedverified.txt[A[C[C[C[C[C[C[Cc verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > formattedverified.txt[A[C[C[C[C[C[C[Ca verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > formattedverified.txt[A[C[C[C[C[C[C[Ct verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > formattedverified.txt[A[C[C[C[C[C[C[C
+
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ ls
+amazon_reviews_us_Books_v1_02.tsv  formattedverified.txt  unverified.txt  verified.txt  ws8
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ lscat verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > fformattedverified.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cuverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > formattedverified.txt[A[C[C[C[C[C[C[C[Cnverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' > formattedverified.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ccat unverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' >> formattedverified.txt[A[C[C[Cut -d "       " -f14 verified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g'[C-e 's/for//g' > formattedverified.txt[Aat unverified.txt | head -100 |  sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g' -e 's/it//g' -e 's/this//g' -e 's/for//g' >[C[16Pformattedverified.txt[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[C[C[C[C[C[C[C[C[Cuverified.txtnverified.txt
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ ls
+amazon_reviews_us_Books_v1_02.tsv  formattedunverified.txt  formattedverified.txt  unverified.txt  verified.txt  ws8
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ cat formattedverified.txt | tr -c '[:alnum:]' '[\n*]' | sort | uniq -c | sort -nr | head -40[C[1P060
+   8784 
+    213 book
+    111 not
+    109 you
+    103 2005
+    101 be
+    100 Books
+     99 US
+     58 red
+     58 by
+     55 will
+     52 would
+     50 who
+     45 more
+     40 which
+     40 like
+     39 out
+     39 most
+     38 some
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ cat formattedverified.txt | tr -c '[:alnum:]' '[\n*]' | sort | uniq -c | sort -nr | head -60[C[C[C[C[C[C[C[C[C[C[1@u[1@n
+   8784 
+    213 book
+    159 The
+    111 not
+    109 you
+    108 ws
+    104 14
+    103 2005
+    103 10
+    100 Books
+     99 US
+     65 from
+     58 by
+     55 will
+     52 would
+     50 who
+     42 she
+     40 which
+     40 like
+     39 out
+     39 most
+     38 some
+     35 been
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ exit
+
+Script done on 2022-11-01 19:39:38-04:00
+Script started on 2022-11-01 19:45:23-04:00
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ cat formattedunverified.txt | tr -c '[:alnum:]' '[\n*]' | sort | uniq -c | sort -nr | head -60[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1P070
+   8784 
+    213 book
+    159 The
+    111 not
+    109 you
+    100 Books
+     99 US
+     94 on
+     88 her
+     71 bout
+     65 from
+     52 would
+     50 who
+     47 me
+     43 so
+     42 she
+     41 my
+     40 which
+     40 like
+     39 out
+     39 most
+     38 some
+     35 been
+     34 well
+     34 Gor
+     33 very
+     32 gret
+     31 your
+     29 hd
+]0;obeda@sjsu:/mnt/scratch/obeda/worksheets/worksheet8[obeda@sjsu worksheet8]$ exit
+
+Script done on 2022-11-01 19:45:51-04:00

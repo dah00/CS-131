@@ -1,0 +1,665 @@
+Script started on 2022-12-04 19:12:26-05:00
+1) 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ cat downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS_USER6.tsv downloaded_tweets_extend_nolf2_REPLIES.NOBOTS_USER6.tsv | sort | uniq -nr -c | head -10[C[C[1P[1P[1P[1P[C[C[C[C[C[C[1@ [1@s[1@o[1@r[1@t[1P[1P[1P[1P[C[C[1@ [1@s[1@r[1@o[1@t[1P[1P[1P[1@o[1@r[1@t[C[C[1@ [1@-[1@n[1@r[C[C[1@ [1@-[1@k[1@1[C[C[1@ [1@|[C[1P
+     47 19739126
+     45 3453306553
+     29 956266072440635392
+     27 29447428
+     25 492736486
+     21 1236324668640047105
+     20 90732175
+     20 21525682
+     18 26347394
+     18 1238370241169616897
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ cat downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS_USER6.tsv downloaded_tweets_extend_nolf2_REPLIES.NOBOTS_USER6.tsv | sort | uniq -c | sort -nr -k1 | head -10[1P -10[1P -10[1P -10[1P -10l -10e -10s -10s -10[C -10[1P-10
+[?1049h[22;0;0t[?1h=     47 19739126
+     45 3453306553
+     29 956266072440635392
+     27 29447428
+     25 492736486
+     21 1236324668640047105
+     20 90732175
+     20 21525682
+     18 26347394
+     18 1238370241169616897
+     17 351120282
+     17 2245822809
+     17 19604599
+     17 1462548977367359490
+     17 1108565574
+     15 877968869138329601
+     14 756584190112591872
+     14 728273994
+     14 1384053916690571264
+     13 2809959174
+     13 27493883
+     13 1120633726478823425
+     12 94350709
+     12 48624704
+     12 262219168
+     12 1652541
+     12 15801906
+     12 155930120
+     12 1096205507348623360
+     11 95091601
+     11 90651198
+     11 879713479254528005
+     11 467726691
+     11 255812611
+     11 18831926
+     11 1573800344
+     11 1046608631968538624
+     10 64698201
+     10 3832
+     10 2962813893
+     10 225779417
+     10 1268223690480615424
+     10 1236816024281976833
+      9 977204844
+      9 938758536938557440
+      9 878284831
+      9 86626845
+      9 420617857
+      9 2800843867
+      9 26562883
+      9 26217297
+      9 2615581908
+      9 237176284
+      9 17477864
+      9 1280478731874848769
+      9 1275209472
+      9 113165445
+      9 1080844782
+      8 938494109844729856
+      8 848148994102611969
+      8 605153786
+      8 32871086
+      8 2264401871
+      8 1917731
+      8 14260960
+      8 1387010761994682371
+      8 1237314642583658496
+      8 1137827292
+      8 1003107003693137921
+      7 926164634570067968
+      7 807095
+      7 799911790398373888
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ cat downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS_USER6.tsv downloaded_tweets_extend_nolf2_REPLIES.NOBOTS_USER6.tsv | sort | uniq -c | sort -nr -k1 | tail -10 [K[K[K[K[K[K[K[K[Kawk -F |[K" " ''S'[1P'(')'$)'1)' )'>)'2)' 2)'[C[C '{'}'p}'r}'i}'n}'t}' }'$}'0}'[C[C | tail -10
+      3 1095523459877068800
+      3 1094971056358637568
+      3 1094095877302611969
+      3 1087380412089987077
+      3 1077214808
+      3 1066773270773547008
+      3 1031000589054828544
+      3 1029041185808109568
+      3 1020602380096696320
+      3 1009577803304656896
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ cat downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS_USER6.tsv downloaded_tweets_extend_nolf2_REPLIES.NOBOTS_USER6.tsv | sort | uniq -c | sort -nr -k1 | awk -F " " '($1 > 2) {print $0}' | tail -10[K[K[K[K[K[K[K[Ka6_0[K1temp.txt[1P a6_1temp.txt> a6_1temp.txt
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ ls
+a6_1temp.txt                                       downloaded_tweets_extend_nolf2_REPLIES.NOBOTS_USER6.tsv  downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS.tsv        downloaded_tweets_extend_original_nolf2.tsv
+downloaded_tweets_extend_nolf2_REPLIES.NOBOTS.tsv  downloaded_tweets_extend_nolf2.tsv                       downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS_USER6.tsv
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ awk ''{'}'s}'+}'=}'$}'1}'[C[C [1@ [1@E[1@N[1@D[1@ [1@{[1@}[1@s[1P[1P[1@{[1@p[1@r[1@i[1@n[1@t[1@ [1@s[C[C[Ca6_1temp.txt 
+2465
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ les[K[K[Ktail -20 a6_1temp.txt 
+      3 122640580
+      3 1218721688738615297
+      3 1205226529455632385
+      3 1201944151
+      3 1189799454506799104
+      3 1176522535531360257
+      3 1168968080690749441
+      3 1168793622248067072
+      3 1159682513947652096
+      3 1109045045649424386
+      3 1095523459877068800
+      3 1094971056358637568
+      3 1094095877302611969
+      3 1087380412089987077
+      3 1077214808
+      3 1066773270773547008
+      3 1031000589054828544
+      3 1029041185808109568
+      3 1020602380096696320
+      3 1009577803304656896
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ tail -20 a6_1temp.txt [1P[1@4
+      3 1383272101
+      3 1364639441604800513
+      3 1349418249172234241
+      3 1349087304233541633
+      3 1341091420439015424
+      3 1330859882040463362
+      3 1330585435
+      3 1321935792416149505
+      3 1319916075476262914
+      3 1307027256133345280
+      3 1305817131234267136
+      3 1299769218
+      3 1296279134079823872
+      3 12848262
+      3 1259851956
+      3 1255393579507351554
+      3 1250239723
+      3 1249982359
+      3 1247612029
+      3 1243560408025198593
+      3 122640580
+      3 1218721688738615297
+      3 1205226529455632385
+      3 1201944151
+      3 1189799454506799104
+      3 1176522535531360257
+      3 1168968080690749441
+      3 1168793622248067072
+      3 1159682513947652096
+      3 1109045045649424386
+      3 1095523459877068800
+      3 1094971056358637568
+      3 1094095877302611969
+      3 1087380412089987077
+      3 1077214808
+      3 1066773270773547008
+      3 1031000589054828544
+      3 1029041185808109568
+      3 1020602380096696320
+      3 1009577803304656896
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ tail -40 a6_1temp.txt [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C2[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19@awk '{s+=$1} END {print s}'[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[19Ptail -20[C[C[C[C[C[C[C[C[C[C[C[C[C[C4[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kwc -l a6_1temp.txt 
+465 a6_1temp.txt
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ wc -l a6_1temp.txt 
+465 a6_1temp.txt
+
+
+
+
+
+
+
+
+
+
+
+
+
+2)
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ mv a6_1temp.txt influential_users.txt
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ head -1[K20 influential_users.txt 
+19739126
+3453306553
+956266072440635392
+29447428
+492736486
+1236324668640047105
+90732175
+21525682
+26347394
+1238370241169616897
+351120282
+2245822809
+19604599
+1462548977367359490
+1108565574
+877968869138329601
+756584190112591872
+728273994
+1384053916690571264
+2809959174
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ head -[K-30[K[K20 replies_to_infl_users.txt 
+308045021
+1353306974939738113
+1353306974939738113
+1353306974939738113
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ exit
+
+Script done on 2022-12-04 19:53:02-05:00
+
+
+
+2)
+Script started on 2022-12-04 20:05:09-05:00
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ wc -l influential_users.txt 
+465 influential_users.txt
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ exit
+
+Script done on 2022-12-04 20:05:26-05:00
+Script started on 2022-12-04 20:06:32-05:00
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ sort -rn[K[Knr [K[K[K[K[K[K[K[K[Kcat replies_to_infl_users.txt | uniq -c | sort [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K sort -nr | head -10
+^C
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ cat replies_to_infl_users.txt | sort -nr | head -10[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+308045021
+1353306974939738113
+1353306974939738113
+1353306974939738113
+199452338
+199452338
+199452338
+199452338
+199452338
+199452338
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ unq[Kiq -c replies_to_infl_users.txt | sort -nr | head-[K -10
+    484 199452338
+    484 199452338
+    484 199452338
+    484 199452338
+    484 199452338
+    484 199452338
+    484 199452338
+    484 199452338
+    484 199452338
+    484 199452338
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ ^C
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ sort -n replies_to_infl_users.txt | unirq[K[Kq- c[K[K[K -c | sort-[K -rn-[K -k1 | head -10
+ 483135 199452338
+ 311085 302984766
+ 290160 578601744
+ 243195 804582780298412032
+ 182745 1387010761994682371
+ 101370 41186732
+  78120 832019161454817280
+  78120 3453306553
+  75330 1263391922657337345
+  74865 1308267623327518725
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ sort -n replies_to_infl_users.txt | uniq -c | sort -rn -k1 | head -10[C[C[C[C[K[K[K[K[K[K[K[Kwc -k[Kl
+71
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ exit
+
+Script done on 2022-12-04 20:09:46-05:00
+Script started on 2022-12-06 17:16:01-05:00
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ cat a6.txt [1Pvi[C[C[C[C[C[C[C[C[7@script -a[C[C[C[C[C[C[C[Cls[Kcat a6.txt [6@script -a[C[C[C[C[C[C[C[C[6Pcat[C[C[C[C[C[C[C[C[1Pvi[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[Cmv ../a6.txt .[3Pcat a6.txt [1Pvi[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[C[6@script -a[C[C[C[C[C[C[C[C[6Pcat[C[C[C[C[C[C[C[Cls[Kscript -a a6.txt [7Pvi[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[C[Kcat a6.txt [1Pvi[C[C[C[C[C[C[C[C[7@script -a[C[C[C[C[C[C[C[Cls[Kcat a6.txt [6@script -a[C[C[C[C[C[C[C[C[6Pcat[C[C[C[C[C[C[C[C[1Pvi[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[Cmv ../a6.txt .ls[Kcd a6[3Plskscat a6.txt [1Pvi[C[C[C[C[C[C[C[Cscript a6.txt[8Pcd ..[3Plshead -5 downloaded_tweets_extend_original_nolf2_nobot_repliedto.tsv[8Pnolf2_nobot_repliedto.tsv [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Khead -5 downloaded_tweets_extend_nolf2_nobot_repliedto.tsv original_nolf2_nobot_repliedto.tsv[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cls[Kcd ..script a6.txt[3Pvi a6.txt [1@cat[C[C[C[C[C[C[C[Cks[Klscd a6[3Plsmv ../a6.txt .[3Pcat a6.txt [1Pvi[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[C[6@script -a[C[C[C[C[C[C[C[C[6Pcat[C[C[C[C[C[C[C[Cls[Kscript -a a6.txt [7Pvi[C[C[C[C[C[C[C[C[1@cat[C[C[C[C[C[C[C[C[Ksort -n |[Kreplies_to_infl_users.txt | uniq -c | sort -rn -k1 | head [K[K[K[K[K[K[K> a6_3temp.txt
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ vi a6_3temp.txt 
+[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;73r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[73;1H"a6_3temp.txt" 71L, 1606C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;2H483135 199452338
+ 311085 302984766
+ 290160 578601744
+ 243195 804582780298412032
+ 182745 1387010761994682371
+ 101370 41186732
+  78120 832019161454817280
+  78120 3453306553
+  75330 1263391922657337345
+  74865 1308267623327518725
+  74400 614600545
+  69285 29447428
+  56265 348764745
+  55800 1060440219097423872
+  39060 2574271742
+  36270 2530758806
+  35340 940778288871542786
+  33015 1921951394
+  33015 156688202
+  26970 981436419087523840
+  26970 838381908656603144
+  25110 1492690652529889282
+  13485 938494109844729856
+  12555 1417952253449842692
+  12090 711608180535640064
+  11160 967871677399994368
+   9765 118166719
+   9300 1309237180418666499
+   8370 426361581
+   7905 45379403
+   7440 870244616003403781
+   7440 18218403
+   6045 1353306974939738113
+   5580 4757894056
+   5115 977710998
+   5115 39508140
+   5115 177400353
+   5115 1099522514366001152
+   5115 1031000589054828544
+   4185 3264938916
+   4185 1261203450022359043
+   3720 139109800
+   3720 1028022611324747776
+   3255 950215424981028864
+   3255 48074704
+   2790 77726331
+   2790 195578878
+   2790 120481183
+   2790 1154228711731990528
+   2325 308045021
+   2325 244954523
+   1860 59028892
+   1860 29188599
+   1860 1475643712596168706
+   1860 1276065476041465863
+   1395 42091962
+   1395 192374137
+   1395 1477609642184396806
+   1395 1433816787016114177
+   1395 1334195751753277445
+    930 1497976259296563200
+    930 1155192156
+    930 1148374192586481664
+    465 997262774
+    465 935349971129311233
+    465 527445533
+    465 2886667320
+    465 2332033299
+    465 1472366361322024966
+    465 1229752606714728454
+    465 1159870188420046848
+[94m~                                                                                                                                                                                                                                            [m[73;220H1,1[11CAll[1;1H[?25h[?25l[73;210Hk[1;1H[73;210H [1;1H[?25h[?25l[73;210Hj[1;1H[73;210H [2;1H[73;220H2[2;1H[?25h[?25l[73;210Hj[2;1H[73;210H [3;1H[73;220H3[3;1H[?25h[?25l[73;210Hj[3;1H[73;210H [4;1H[73;220H4[4;1H[?25h[?25l[73;210Hj[4;1H[73;210H [5;1H[73;220H5[5;1H[?25h[?25l[73;210Hj[5;1H[73;210H [6;1H[73;220H6[6;1H[?25h[?25l[73;210Hj[6;1H[73;210H [7;1H[73;220H7[7;1H[?25h[?25l[73;210Hj[7;1H[73;210H [8;1H[73;220H8[8;1H[?25h[?25l[73;210Hj[8;1H[73;210H [9;1H[73;220H9[9;1H[?25h[?25l[73;210Hj[9;1H[73;210H [10;1H[73;220H10,1[10;1H[?25h[?25l[73;210Hj[10;1H[73;210H [11;1H[73;221H1[11;1H[?25h[?25l[73;210Hj[11;1H[73;210H [12;1H[73;221H2[12;1H[?25h[?25l[73;210Hj[12;1H[73;210H [13;1H[73;221H3[13;1H[?25h[?25l[73;210Hj[13;1H[73;210H [14;1H[73;221H4[14;1H[?25h[?25l[73;210Hj[14;1H[73;210H [15;1H[73;221H5[15;1H[?25h[?25l[73;210Hj[15;1H[73;210H [16;1H[73;221H6[16;1H[?25h[?25l[73;210Hj[16;1H[73;210H [17;1H[73;221H7[17;1H[?25h[?25l[73;210Hj[17;1H[73;210H [18;1H[73;221H8[18;1H[?25h[?25l[73;210Hj[18;1H[73;210H [19;1H[73;221H9[19;1H[?25h[?25l[73;210Hj[19;1H[73;210H [20;1H[73;220H20[20;1H[?25h[?25l[73;210Hj[20;1H[73;210H [21;1H[73;221H1[21;1H[?25h[?25l[73;210Hj[21;1H[73;210H [22;1H[73;221H2[22;1H[?25h[?25l[73;210Hj[22;1H[73;210H [23;1H[73;221H3[23;1H[?25h[?25l[73;210Hj[23;1H[73;210H [24;1H[73;221H4[24;1H[?25h[?25l[73;210Hj[24;1H[73;210H [25;1H[73;221H5[25;1H[?25h[?25l[73;210Hj[25;1H[73;210H [26;1H[73;221H6[26;1H[?25h[?25l[73;210Hj[26;1H[73;210H [27;1H[73;221H7[27;1H[?25h[?25l[73;210Hj[27;1H[73;210H [28;1H[73;221H8[28;1H[?25h[?25l[73;210Hj[28;1H[73;210H [29;1H[73;221H9[29;1H[?25h[?25l[73;210Hj[29;1H[73;210H [30;1H[73;220H30[30;1H[?25h[?25l[73;210Hj[30;1H[73;210H [31;1H[73;221H1[31;1H[?25h[?25l[73;210Hj[31;1H[73;210H [32;1H[73;221H2[32;1H[?25h[?25l[73;210Hj[32;1H[73;210H [33;1H[73;221H3[33;1H[?25h[?25l[73;210Hj[33;1H[73;210H [34;1H[73;221H4[34;1H[?25h[?25l[73;210Hj[34;1H[73;210H [35;1H[73;221H5[35;1H[?25h[?25l[73;210Hj[35;1H[73;210H [36;1H[73;221H6[36;1H[?25h[?25l[73;210Hj[36;1H[73;210H [37;1H[73;221H7[37;1H[?25h[?25l[73;210Hj[37;1H[73;210H [38;1H[73;221H8[38;1H[?25h[?25l[73;210Hj[38;1H[73;210H [39;1H[73;221H9[39;1H[?25h[?25l[73;210Hj[39;1H[73;210H [40;1H[73;220H40[40;1H[?25h[?25l[73;210Hj[40;1H[73;210H [41;1H[73;221H1[41;1H[?25h[?25l[73;210Hj[41;1H[73;210H [42;1H[73;221H2[42;1H[?25h[?25l[73;210Hj[42;1H[73;210H [43;1H[73;221H3[43;1H[?25h[?25l[73;210Hj[43;1H[73;210H [44;1H[73;221H4[44;1H[?25h[?25l[73;210Hj[44;1H[73;210H [45;1H[73;221H5[45;1H[?25h[?25l[73;210Hj[45;1H[73;210H [46;1H[73;221H6[46;1H[?25h[?25l[73;210Hj[46;1H[73;210H [47;1H[73;221H7[47;1H[?25h[?25l[73;210Hj[47;1H[73;210H [48;1H[73;221H8[48;1H[?25h[?25l[73;210Hj[48;1H[73;210H [49;1H[73;221H9[49;1H[?25h[?25l[73;210Hj[49;1H[73;210H [50;1H[73;220H50[50;1H[?25h[?25l[73;210Hj[50;1H[73;210H [51;1H[73;221H1[51;1H[?25h[?25l[73;210Hj[51;1H[73;210H [52;1H[73;221H2[52;1H[?25h[?25l[73;210Hj[52;1H[73;210H [53;1H[73;221H3[53;1H[?25h[?25l[73;210Hj[53;1H[73;210H [54;1H[73;221H4[54;1H[?25h[?25l[73;210Hj[54;1H[73;210H [55;1H[73;221H5[55;1H[?25h[?25l[73;210Hj[55;1H[73;210H [56;1H[73;221H6[56;1H[?25h[?25l[73;210Hj[56;1H[73;210H [57;1H[73;221H7[57;1H[?25h[?25l[73;210Hj[57;1H[73;210H [58;1H[73;221H8[58;1H[?25h[?25l[73;210Hj[58;1H[73;210H [59;1H[73;221H9[59;1H[?25h[?25l[73;210Hj[59;1H[73;210H [60;1H[73;220H60[60;1H[?25h[?25l[73;210Hj[60;1H[73;210H [61;1H[73;221H1[61;1H[?25h[?25l[73;210Hj[61;1H[73;210H [62;1H[73;221H2[62;1H[?25h[?25l[73;210Hj[62;1H[73;210H [63;1H[73;221H3[63;1H[?25h[?25l[73;210Hj[63;1H[73;210H [64;1H[73;221H4[64;1H[?25h[?25l[73;210Hj[64;1H[73;210H [65;1H[73;221H5[65;1H[?25h[?25l[73;210Hj[65;1H[73;210H [66;1H[73;221H6[66;1H[?25h[?25l[73;210Hj[66;1H[73;210H [67;1H[73;221H7[67;1H[?25h[?25l[73;210Hj[67;1H[73;210H [68;1H[73;221H8[68;1H[?25h[?25l[73;210Hj[68;1H[73;210H [69;1H[73;221H9[69;1H[?25h[?25l[73;210Hj[69;1H[73;210H [70;1H[73;220H70[70;1H[?25h[?25l[73;210Hj[70;1H[73;210H [71;1H[73;221H1[71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hk[71;1H[73;210H [70;1H[73;221H0[70;1H[?25h[?25l[73;210Hk[70;1H[73;210H [69;1H[73;220H69[69;1H[?25h[?25l[73;210Hk[69;1H[73;210H [68;1H[73;221H8[68;1H[?25h[?25l[73;210Hk[68;1H[73;210H [67;1H[73;221H7[67;1H[?25h[?25l[73;210Hk[67;1H[73;210H [66;1H[73;221H6[66;1H[?25h[?25l[73;210Hj[66;1H[73;210H [67;1H[73;221H7[67;1H[?25h[?25l[73;210Hj[67;1H[73;210H [68;1H[73;221H8[68;1H[?25h[?25l[73;210Hj[68;1H[73;210H [69;1H[73;221H9[69;1H[?25h[?25l[73;210Hj[69;1H[73;210H [70;1H[73;220H70[70;1H[?25h[?25l[73;210Hj[70;1H[73;210H [71;1H[73;221H1[71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hk[71;1H[73;210H [70;1H[73;221H0[70;1H[?25h[?25l[73;210Hk[70;1H[73;210H [69;1H[73;220H69[69;1H[?25h[?25l[73;210Hk[69;1H[73;210H [68;1H[73;221H8[68;1H[?25h[?25l[73;210Hk[68;1H[73;210H [67;1H[73;221H7[67;1H[?25h[?25l[73;210Hk[67;1H[73;210H [66;1H[73;221H6[66;1H[?25h[?25l[73;210Hk[66;1H[73;210H [65;1H[73;221H5[65;1H[?25h[?25l[73;210Hj[65;1H[73;210H [66;1H[73;221H6[66;1H[?25h[?25l[73;210Hj[66;1H[73;210H [67;1H[73;221H7[67;1H[?25h[?25l[73;210Hj[67;1H[73;210H [68;1H[73;221H8[68;1H[?25h[?25l[73;210Hj[68;1H[73;210H [69;1H[73;221H9[69;1H[?25h[?25l[73;210Hj[69;1H[73;210H [70;1H[73;220H70[70;1H[?25h[?25l[73;210Hj[70;1H[73;210H [71;1H[73;221H1[71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210Hj[71;1H[73;210H [71;1H[?25h[?25l[73;210H^[[71;1H[73;210H  [71;1H[73;210H^[[71;1H[73;210H  [71;1H[?25h[?25l[73;210H/[71;1H[73;1H[K[73;1H/[?2004h[?25hs[?25l[217C71,1[10CAll[73;220H[K[73;3H[?25h/[?25l[216C71,1[10CAll[73;220H[K[73;4H[?25h^[?25l[215C71,1[10CAll[73;220H[K[73;5H[?25h[?25l[73;4H[K[73;220H71,1[10CAll[73;220H[K[73;4H[?25h[?25l[73;3H[K[73;220H71,1[10CAll[73;220H[K[73;3H[?25h[?25l[73;2H[K[73;220H71,1[10CAll[73;220H[K[73;2H[?25h [?25l[71;1H[73;220H71,1[10CAll[71;1H[?25h[?25l[73;210H~@k[71;1H[73;210H   [70;27H[73;221H0,27[70;27H[?25h[?25l[73;210H~@k[70;27H[73;210H   [70;26H[73;224H6[70;26H[?25h[?25l[73;210H^[[70;26H[73;210H  [70;26H[73;210H^[[70;26H[73;210H  [70;26H[?25h[?25l[73;210H:[70;26H[73;210H[K[73;1H:[?2004h[?25h%[?25l[?25hs[?25l[?25h/[?25l[?25h^[?25l[?25h.[?25l[?25h*[?25l[?25h[?25l [?25h/[?25l[?25h/[?25l[?25hg[?25l[?25h[?25l71 substitutions on 71 lines[71;1H[1;1H199452338[1;10H[K[2;1H302984766[2;10H[K[3;1H578601744[3;10H[K[4;1H80458278029841203[4;19H[K[5;1H1387010761994682371[5;20H[K[6;1H41186732[6;9H[K[7;1H832019161454817280[7;19H[K[8;1H3453306553[8;11H[K[9;1H1263391922657337345[9;20H[K[10;1H1308267623327518725[10;20H[K[11;1H614600545[11;10H[K[12;1H29447428[12;9H[K[13;1H348764745[13;10H[K[14;1H1060440219097423872[14;20H[K[15;1H2574271742[15;11H[K[16;1H2530758806[16;11H[K[17;1H940778288871542786[17;19H[K[18;1H1921951394[18;11H[K[19;1H156688202[19;10H[K[20;1H98143641908752384[20;19H[K[21;1H838381908656603144[21;19H[K[22;1H1492690652529889282[22;20H[K[23;1H938494109844729856[23;19H[K[24;1H1417952253449842692[24;20H[K[25;1H711608180535640064[25;19H[K[26;1H967871677399994368[26;19H[K[27;1H118166719[27;10H[K[28;1H1309237180418666499[28;20H[K[29;1H426361581[29;10H[K[30;1H45379403[30;9H[K[31;1H870244616003403781[31;19H[K[32;1H18218403[32;9H[K[33;1H1353306974939738113[33;20H[K[34;1H4757894056[34;11H[K[35;1H977710998[35;10H[K[36;1H39508140[36;9H[K[37;1H177400353[37;10H[K[38;1H1099522514366001152[38;20H[K[39;1H1031000589054828544[39;20H[K[40;1H3264938916[40;11H[K[41;1H1261203450022359043[41;20H[K[42;1H139109800[42;10H[K[43;1H1028022611324747776[43;20H[K[44;1H950215424981028864[44;19H[K[45;1H48074704[45;9H[K[46;1H77726331[46;9H[K[47;1H195578878[47;10H[K[48;1H120481183[48;10H[K[49;1H1154228711731990528[49;20H[K[50;1H308045021[50;10H[K[51;1H244954523[51;10H[K[52;1H59028892[52;9H[K[53;1H29188599[53;9H[K[54;1H1475643712596168706[54;20H[K[55;1H1276065476041465863[55;20H[K[56;1H42091962[56;9H[K[57;1H192374137[57;10H[K[58;1H1477609642184396806[58;20H[K[59;1H1433816787016114177[59;20H[K[60;1H1334195751753277445[60;20H[K[61;1H1497976259296563200[61;20H[K[62;1H1155192156[62;11H[K[63;1H1148374192586481664[63;20H[K[64;1H997262774[64;10H[K[65;1H935349971129311233[65;19H[K[66;1H527445533[66;10H[K[67;1H2886667320[67;11H[K[68;1H2332033299[68;11H[K[69;1H1472366361322024966[69;20H[K[70;1H1229752606714728454[70;20H[K[71;1H1159870188420046848[71;20H[K[73;220H71,1[10CAll[73;220H[K[73;220H71,1[10CAll[71;1H[?25h[?25l[73;210H^[[71;1H[73;210H  [71;1H[73;210H^[[71;1H[73;210H  [71;1H[?25h[?25l[73;210H:[71;1H[73;1H[K[73;1H:[?2004h[?25hw[?25l[?25hq[?25l[?25h[?25l[?2004l"a6_3temp.txt" 71L, 1038C written
+[?2004l[?1l>[?25h[?1049l[23;0;0t]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ head -10 a6_3temp.txt 
+199452338
+302984766
+578601744
+804582780298412032
+1387010761994682371
+41186732
+832019161454817280
+3453306553
+1263391922657337345
+1308267623327518725
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ for i in ``c`a`t` `r`e`p`l`i`e`s`[1P`[1P`[1P`[1P`[1P`[1P`[1P`[1P`[1P`[1P`[1P`a6_3temp.txt`ca6_3temp.txt`[Ca6_3temp.txt`ta6_3temp.txt` a6_3temp.txt`[C[C[C[C[C[C[C[C[C[C[C[C[C; do grep i[K""%"[1P"$"i"[C [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kls 
+a6_3temp.txt  downloaded_tweets_extend_nolf2_REPLIES.NOBOTS.tsv        downloaded_tweets_extend_nolf2.tsv                          downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS_USER6.tsv  influential_users.txt
+a6.txt        downloaded_tweets_extend_nolf2_REPLIES.NOBOTS_USER6.tsv  downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS.tsv  downloaded_tweets_extend_original_nolf2.tsv                       replies_to_infl_users.txt
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ [K[obeda@sjsu a6]$ exit
+
+Script done on 2022-12-06 17:55:27-05:00
+Script started on 2022-12-07 01:26:51-05:00
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+
+
+
+
+
+
+
+4)
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ script -a a6.txt grep 199452338 downloaded_tweets_extend_nolf2_REPLIES.NOBOTS.tsv | head -10[9@original_[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[9P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cscript -a a6.txt [K[Kawk '{print $3}' *NOBOTS.tsv | sort | uniq -c | sort -nr -k 1 | head
+    227 2022-03-04
+    165 2022-02-23
+    141 2022-02-04
+    137 2022-04-08
+    137 2022-02-18
+    127 2022-04-23
+    126 2022-03-25
+    120 2022-03-11
+    106 2022-04-02
+     97 2022-04-29
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ awk '{print $3}' *NOBOTS.tsv | sort | uniq -c | sort -nr -k 1 | head[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Khead -[K-2 downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS.tsv 
+1074379984423215104	73452506	2018-12-16 19:05:23+00:00	"authoritarianism,FT"	[<ReferencedTweet id=1074359443498983424 type=replied_to]	807095		"@nytimes “One of the first open hearings we’re going to have is on the rise of #authoritarianism around the world,"" @RepAdamSchiff ""There is a global rise of autocracy that ought to concern every American. This is the new ideological struggle that we’re in.” https://t.co/dHJYQHT17b #FT$"
+1117453001638207489	2147604445	2019-04-14 15:42:11+00:00	BorisJohnson	[<ReferencedTweet id=1117371973112225793 type=replied_to]	621533		@BBCPolitics LET ME REMIND EVERYONE. I was at a Party in the early 90’s  where #BorisJohnson came up to me making Monkey noises  and tried to hand me a Water Melon. If you think that’s he’s fit to be PM then you’re as much of a racist PIG as he is
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ head -2 downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS.tsv [C[C[C[C[C[C[C[C[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P
+id	author	date	hashtags	referenced	in_reply_to_user_id	public_metrics	text_nolf
+1004656199885836288	457060718	2018-06-07 09:27:58+00:00	Brexit				David Davis is ex SAS He’s trained to survive. He’s also trained to take people out. #Brexit
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ awk '{print $8}' *NOBOTS.tsv | sed -e 's|<..*/>||g' -e 's/[,.;]//g' -e 's/it//g' -e 's/and//g' -e 's/or//g' -e 's/if//g' -e 's/in//g' -e 's/?//g' | head[C[1@ [1@-[1@F[C[1@ [1@"[1@"[1@\[1@t
+@NiaVardalos You Persevered ! #MyBigFatGreekWeddg is one of my hubby’s fave films Keep wrg Keep believg  yourself Congrats on ur persistence!
+@ScottWalker Ugh  No one wants to look at your face #cruption
+@JDVance1 @DonaldJTrumpJr Gag Just a bunch of losers remiscg about losg the last election #racists #homophobes
+"@BuckUUUUUUton My goodness!! You must live  heaven Just thk of all the problems across the wld  the number one problem you tweet about is mill  your coffee My goodness aren’t you a privileged ltle prcess #gay #gay #gay #gay @cnn @ChristaPushaw"
+@MrJgle14 Just followed Hope you had a good #FBPE #FollowBackFriday 🙏
+@JackTheHat11 Just followed Hope you both had a good #FBPE #FollowBackFriday 👏
+@Coops19632016 Just followed back  Hope you had a good #FBPE #FollowBackFriday 🙏
+@nicolalondon Just followed back Nicola  Hope you had a good #FBPE #FollowBackFriday 🙏
+@dotts Just followed Diana  Hope you had a good #FBPE #FollowBackFriday 🙏
+@ganicbotanic Just followed Sue  Hope you had a good #FBPE #FollowBackFriday 🙏
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ exit
+
+
+
+
+
+
+
+5)
+Script done on 2022-12-07 01:38:40-05:00
+Script started on 2022-12-07 13:03:51-05:00
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ ls
+a6_3temp.txt  downloaded_tweets_extend_nolf2_REPLIES.NOBOTS.tsv        downloaded_tweets_extend_nolf2.tsv                          downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS_USER6.tsv  influential_users.txt
+a6.txt        downloaded_tweets_extend_nolf2_REPLIES.NOBOTS_USER6.tsv  downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS.tsv  downloaded_tweets_extend_original_nolf2.tsv                       replies_to_infl_users.txt
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ awk -F ""\"t"[C ''{'}'p}'r}'i}'n}'t}' }'$}'8}'[C[C *NOBOTS>[K.s[Ktsv | eh[K[Khead 
+@NiaVardalos You Persevered ..! #MyBigFatGreekWedding is one of my hubby’s favorite films. Keep writing. Keep believing in yourself. Congrats on ur persistence!
+@ScottWalker Ugh.  No one wants to look at your face. #corruption
+@JDVance1 @DonaldJTrumpJr Gag. Just a bunch of losers reminiscing about losing the last election. #racists #homophobes
+"@BuckUUUUUUton My goodness!! You must live in heaven. Just think of all the problems across the world and the number one problem you tweet about is mill in your coffee. My goodness, aren’t you a privileged little princess. #gay #gay #gay #gay @cnn @ChristinaPushaw"
+@MrJingle14 Just followed. Hope you had a good #FBPE #FollowBackFriday 🙏
+@JackTheHat11 Just followed. Hope you both had a good #FBPE #FollowBackFriday 👏
+@Coops19632016 Just followed back.  Hope you had a good #FBPE #FollowBackFriday 🙏
+@nicolainlondon Just followed back Nicola.  Hope you had a good #FBPE #FollowBackFriday 🙏
+@ditotts Just followed Diana.  Hope you had a good #FBPE #FollowBackFriday 🙏
+@organicbotanic Just followed Sue.  Hope you had a good #FBPE #FollowBackFriday 🙏
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ head *NOT[KBOTS.tsv
+==> downloaded_tweets_extend_nolf2_REPLIES.NOBOTS.tsv <==
+1516601473219629056	308045021	2022-04-20 02:15:42+00:00	MyBigFatGreekWedding	[<ReferencedTweet id=1516408716442038272 type=replied_to]	42052422		@NiaVardalos You Persevered ..! #MyBigFatGreekWedding is one of my hubby’s favorite films. Keep writing. Keep believing in yourself. Congrats on ur persistence!
+1518364021627715587	1353306974939738113	2022-04-24 22:59:27+00:00	corruption	[<ReferencedTweet id=1518303748271058945 type=replied_to]	33750798		@ScottWalker Ugh.  No one wants to look at your face. #corruption
+1516884365267062789	1353306974939738113	2022-04-20 20:59:49+00:00	"racists,homophobes"	[<ReferencedTweet id=1516846444652683265 type=replied_to]	1542228578		@JDVance1 @DonaldJTrumpJr Gag. Just a bunch of losers reminiscing about losing the last election. #racists #homophobes
+1508571329129287682	1353306974939738113	2022-03-28 22:26:47+00:00	"gay,gay,gay,gay"	[<ReferencedTweet id=1508116080849563658 type=replied_to]	334715818		"@BuckUUUUUUton My goodness!! You must live in heaven. Just think of all the problems across the world and the number one problem you tweet about is mill in your coffee. My goodness, aren’t you a privileged little princess. #gay #gay #gay #gay @cnn @ChristinaPushaw"
+1520317978331516930	199452338	2022-04-30 08:23:46+00:00	"FBPE,FollowBackFriday"	[<ReferencedTweet id=1519934787238211586 type=replied_to]	1217529719362637826		@MrJingle14 Just followed. Hope you had a good #FBPE #FollowBackFriday 🙏
+1520317280080510976	199452338	2022-04-30 08:21:00+00:00	"FBPE,FollowBackFriday"	[<ReferencedTweet id=1519997484340236292 type=replied_to]	26553835		@JackTheHat11 Just followed. Hope you both had a good #FBPE #FollowBackFriday 👏
+1520312497575714821	199452338	2022-04-30 08:02:00+00:00	"FBPE,FollowBackFriday"	[<ReferencedTweet id=1520122805295239168 type=replied_to]	812078560286490625		@Coops19632016 Just followed back.  Hope you had a good #FBPE #FollowBackFriday 🙏
+1520312349382660096	199452338	2022-04-30 08:01:24+00:00	"FBPE,FollowBackFriday"	[<ReferencedTweet id=1520138883530477569 type=replied_to]	19602251		@nicolainlondon Just followed back Nicola.  Hope you had a good #FBPE #FollowBackFriday 🙏
+1520312104695341056	199452338	2022-04-30 08:00:26+00:00	"FBPE,FollowBackFriday"	[<ReferencedTweet id=1520172338272161792 type=replied_to]	1276912994258243584		@ditotts Just followed Diana.  Hope you had a good #FBPE #FollowBackFriday 🙏
+1520311946284777473	199452338	2022-04-30 07:59:48+00:00	"FBPE,FollowBackFriday"	[<ReferencedTweet id=1520118640993087491 type=replied_to]	65214759		@organicbotanic Just followed Sue.  Hope you had a good #FBPE #FollowBackFriday 🙏
+
+==> downloaded_tweets_extend_original_nolf2_REPLIES.NOBOTS.tsv <==
+1074379984423215104	73452506	2018-12-16 19:05:23+00:00	"authoritarianism,FT"	[<ReferencedTweet id=1074359443498983424 type=replied_to]	807095		"@nytimes “One of the first open hearings we’re going to have is on the rise of #authoritarianism around the world,"" @RepAdamSchiff ""There is a global rise of autocracy that ought to concern every American. This is the new ideological struggle that we’re in.” https://t.co/dHJYQHT17b #FT$"
+1117453001638207489	2147604445	2019-04-14 15:42:11+00:00	BorisJohnson	[<ReferencedTweet id=1117371973112225793 type=replied_to]	621533		@BBCPolitics LET ME REMIND EVERYONE. I was at a Party in the early 90’s  where #BorisJohnson came up to me making Monkey noises  and tried to hand me a Water Melon. If you think that’s he’s fit to be PM then you’re as much of a racist PIG as he is
+1121299490584113152	888042960549552129	2019-04-25 06:26:45+00:00	MelanieShaw	[<ReferencedTweet id=1120982666457829376 type=replied_to]	209584092		"@DannyShawBBC It looks like, based on the responses, this may well be political bunkum.   However, #MelanieShaw said she has experienced prison without hygiene resources. This was before she was denied a visit from her social worker. Is that a general occurrence or special ‘treatment’ for Mel?"
+1129996316426342401	2748061373	2019-05-19 06:24:50+00:00	MelanieShaw	[<ReferencedTweet id=1129421674569490436 type=replied_to]	1066744429854236672		@HeleneG46816352 Thank you for retweeting. We have been working for many years to help get the lid off child abuse and many people researching commenting bringing evidence forward &amp; challenging the State cover-up is very powerful. #MelanieShaw has spent 24 months in solitary to try &amp; silence her
+1135151217439596544	872158753008877569	2019-06-02 11:48:34+00:00	"NHS,Brexit"	[<ReferencedTweet id=1135141940989693954 type=replied_to]	722242009		@carolecadwalla Remember what John Major said in 2016. The #NHS is as safe in the hands of the #Brexit at-all-costs as a hamster in a cage with a python https://t.co/jEYZdWW4KP
+1301086316956774404	2412223020	2020-09-02 09:15:25+00:00	auspol	[<ReferencedTweet id=1301059786184761344 type=replied_to]	8197942		"@SBSNews So, according to devoutly religious Tony Abbott...  In relation to abortion, life is sacred In relation to euthanasia, life is sacred In relation to the economy, cull the old  He's never been a profound or consistent thinker! Or, in fact, much of a thinker at all. #auspol"
+1304148522736861185	3657013654	2020-09-10 20:03:32+00:00	USAorInc	[<ReferencedTweet id=1304124104702820352 type=replied_to]	767788995962998784		@ReallyAmerican1 Donald Trump represents Trump Inc not the USA. #USAorInc https://t.co/2ie1CHdmTu
+1307129411603509255	182663887	2020-09-19 01:28:31+00:00	"Julian,FreeJulianRRRRRRange,FreeJulianRRRRRRangeNow"	[<ReferencedTweet id=1306205472521891840 type=replied_to]	1246440482760085504		@StellaMoris1 Please take action for #Julian &amp; for us all: https://t.co/hfTwn4YAjp https://t.co/wILwIr7V5C https://t.co/NMh7Uf308u https://t.co/OoRqkPQ9f8 https://t.co/AgwdXddhXb https://t.co/hBkJmiboEU https://t.co/DC75M2rOV0 https://t.co/Rn8afQkAgn  #FreeJulianRRRRRRange #FreeJulianRRRRRRangeNow https://t.co/leRao9EtzO
+1323695097104551937	250691621	2020-11-03 18:34:38+00:00	TrumpLiedPeopleDied	[<ReferencedTweet id=1323615834455994373 type=replied_to]	21722318		@willchamberlain #TrumpLiedPeopleDied Lindsey Graham knew. Marco Rubio knew. Ted Cruz knew. Rand Paul knew. Nikki Haley knew. Kellyanne Conway knew. Mike Pompeo knew. Glenn Beck knew. Rick Perry knew. Susan Collins knew.  They all knew. https://t.co/UM4v1KdWMP
+1337553068620181506	1317220261050056704	2020-12-12 00:21:16+00:00	VoteBlue	[<ReferencedTweet id=1337552237514592256 type=replied_to]	380268462		"@steve_vladeck @brooks_rosa @JoeBiden 2030 History Book:  ""If the GOP had control of the House in 2020, the fragile Democracy known as the USA would have been declared null and void.""  #VoteBlue stop suffering these fools."
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ awk -F "\t" '{print $8}' *NOBOTS.tsv | sed -e 's/@//g' | head [C[C[C[1@[[1@][1@A[1@-[1@Z[1@a[1@-[1@z[1@0[1@-[1@9[C[1@*[1@ 
+You Persevered ..! #MyBigFatGreekWedding is one of my hubby’s favorite films. Keep writing. Keep believing in yourself. Congrats on ur persistence!
+Ugh.  No one wants to look at your face. #corruption
+Gag. Just a bunch of losers reminiscing about losing the last election. #racists #homophobes
+"My goodness!! You must live in heaven. Just think of all the problems across the world and the number one problem you tweet about is mill in your coffee. My goodness, aren’t you a privileged little princess. #gay #gay #gay #gay @ChristinaPushaw"
+Just followed. Hope you had a good #FBPE #FollowBackFriday 🙏
+Just followed. Hope you both had a good #FBPE #FollowBackFriday 👏
+Just followed back.  Hope you had a good #FBPE #FollowBackFriday 🙏
+Just followed back Nicola.  Hope you had a good #FBPE #FollowBackFriday 🙏
+Just followed Diana.  Hope you had a good #FBPE #FollowBackFriday 🙏
+Just followed Sue.  Hope you had a good #FBPE #FollowBackFriday 🙏
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ awk -F "\t" '{print $8}' *NOBOTS.tsv | sed -e 's/@[A-Za-z0-9]* //g' | sed 's/#//g' |  head [C[1@ [24@sed -e 's/the//g' -e 's/[24@of//g' -e 's/and//g' -e [48@'s/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' [15@-e 's/I//g' -e [16@'s/br//g' -e 's/that//g'  -e 's/it//g' -e 's/this  head [4@//g'[C[13@-e 's/for//g'[C[1@ [1@|[C[1@ [1P
+You Persevered ..! MyBigFtGreekWeddg  one  my hubby’s fvore films. Keep wrg. Keep believg  yourself. Congrts on ur perstence!
+Ugh.  No one wnts  look t your fce. corruption
+Gg. Just  bunch  losers remcg bout losg  lst election. rcts homophobes
+"My goodness!! You must live  heven. Just thk  ll  problems cross  world   number one problem you tweet bout  mill  your cfee. My goodness, ren’t you  privileged ltle prcess. gy gy gy gy @ChrtPushw"
+Just followed. Hope you hd  good FBPE FollowBckFridy 🙏
+Just followed. Hope you both hd  good FBPE FollowBckFridy 👏
+Just followed bck.  Hope you hd  good FBPE FollowBckFridy 🙏
+Just followed bck Nicol.  Hope you hd  good FBPE FollowBckFridy 🙏
+Just followed D.  Hope you hd  good FBPE FollowBckFridy 🙏
+Just followed Sue.  Hope you hd  good FBPE FollowBckFridy 🙏
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ awk -F "\t" '{print $8}' *NOBOTS.tsv | sed -e 's/@[A-Za-z0-9]* //g' | sed 's/#//g' | sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/br//g' -e 's/that//g'  -e 's/it//g' -e 's/this//g' -e 's/for//g' | head [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C-e 's/br//g' -e 's/that//g' -[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ce 's/br//g' -e 's/that//g' -e[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C 's/br//g' -e 's/that//g' -e [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C's/br//g' -e 's/that//g' -e '[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cs/br//g' -e 's/that//g' -e 's[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/br//g' -e 's/that//g' -e 's/[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cbr//g' -e 's/that//g' -e 's/i[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cr//g' -e 's/that//g' -e 's/it[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C//g' -e 's/that//g' -e 's/it/[C[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg' -e 's/that//g' -e 's/it//[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cg' -e 's/that//g' -e 's/it//g[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C' -e 's/that//g' -e 's/it//g'[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -e 's/that//g' -e 's/it//g' [1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+You Persevered ..! MyBigFtGreekWeddg  one  my hubby’s fvore films. Keep wrg. Keep believg  yourself. Congrts on ur perstence!
+Ugh.  No one wnts  look t your fce. corruption
+Gg. Just  bunch  losers remcg bout losg  lst election. rcts homophobes
+"My goodness!! You must live  heven. Just thk  ll  problems cross  world   number one problem you tweet bout  mill  your cfee. My goodness, ren’t you  privileged ltle prcess. gy gy gy gy @ChrtPushw"
+Just followed. Hope you hd  good FBPE FollowBckFridy 🙏
+Just followed. Hope you both hd  good FBPE FollowBckFridy 👏
+Just followed bck.  Hope you hd  good FBPE FollowBckFridy 🙏
+Just followed bck Nicol.  Hope you hd  good FBPE FollowBckFridy 🙏
+Just followed D.  Hope you hd  good FBPE FollowBckFridy 🙏
+Just followed Sue.  Hope you hd  good FBPE FollowBckFridy 🙏
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ awk -F "\t" '{print $8}' *NOBOTS.tsv | sed -e 's/@[A-Za-z0-9]* //g' | sed 's/#//g' | sed -e 's/the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's/it//g'  -e 's/this//g' -e 's/for//g' | head [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C the//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's/it//g'[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C //g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's/it//g[1@'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's/it//[1@g[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C //g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's/it/[1@/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's/it[C[1@/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C //g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's/i[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's/[1@i[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C o//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's[1@/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Co//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's/[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C //g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's[1@/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e '[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e '[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C //g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e [1@'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C //g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -[1@e[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C in//g' -e 's/I//g' -e 's/that//g' [1@-[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C //g' -e 's/I//g' -e 's/that//g'[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C I//g' -e 's/that//g[1@'[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C //g' -e 's/that//[1@g[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C that/[1@/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[1@ [C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[C[1@ [C[C[C[C[C[C[C[C[C[C[C[C[1@ [C[C[C[1@ 
+You Persevered ..! MyBigFatGreekWeddingonemy hubby’s favorite films. Keep writing. Keep believingyourself. Congrats on ur persistence!
+Ugh.  No one wantslook at your face. corruption
+Gag. Justbunchlosers reminiscing about losinglast election. racists homophobes
+"My goodness!! You must liveheaven. Just thinkallproblems acrossworld andnumber one problem you tweet aboutmillyour coffee. My goodness, aren’t youprivileged little princess. gay gay gay gay @ChristinaPushaw"
+Just followed. Hope you hadgood FBPE FollowBackFriday 🙏
+Just followed. Hope you both hadgood FBPE FollowBackFriday 👏
+Just followed back.  Hope you hadgood FBPE FollowBackFriday 🙏
+Just followed back Nicola.  Hope you hadgood FBPE FollowBackFriday 🙏
+Just followed Diana.  Hope you hadgood FBPE FollowBackFriday 🙏
+Just followed Sue.  Hope you hadgood FBPE FollowBackFriday 🙏
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ awk -F "\t" '{print $8}' *NOBOTS.tsv | sed -e 's/@[A-Za-z0-9]* //g' | sed 's/#//g' | sed -e 's/ the //g' -e 's/ of //g' -e 's/ and //g' -e 's/ to //g' -e 's/ a //g' -e 's/ is //g' -e 's/ in //g' -e 's/ I //g' -e 's/ that  //g' -e 's/ it //g' -e 's/ this //g' -e 's/ for //g' | head [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cthe//g' -e 's/of//g' -e 's/and//g' -e 's/to//g' -e 's/a//g' -e 's/is//g' -e 's/in//g' -e 's/I//g' -e 's/that//g' -e 's/it//g' [24P-e 's/this//g' -e 's/for[C[C[C[C[C[C[C[C[C[C[C[C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C the //g' -e 's/ of //g' -e 's/ and //g' -e 's/ to //g' -e 's/ a //g' -e 's/ is //g' -e 's/ in //g' -e 's/ I //g' -e 's/ that [24@//g' -e 's/ it //g' -e 's/ this //g' -e 's/ for [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1@ [1@ [1@ [C[1@ [C[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /g' -e 's/ that[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /g' -e 's/ I / /g' -e 's/ tha[1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /g' -e 's/ in / /g' -e 's/ I / /g' -e 's/ th[1@a[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /g' -e 's/ is / /g' -e 's/ in / /g' -e 's/ I / /g' -e 's/ t[1@h[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /g' -e 's/ a / /g' -e 's/ is / /g' -e 's/ in / /g' -e 's/ I / /g' -e 's/ [1@t[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /g' -e 's/ to / /g' -e 's/ a / /g' -e 's/ is / /g' -e 's/ in / /g' -e 's/ I / /g' -e 's/[1@ [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /g' -e 's/ and / /g' -e 's/ to / /g' -e 's/ a / /g' -e 's/ is / /g' -e 's/ in / /g' -e 's/ I / /g' -e 's[1@/[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C /g' -e 's/ of / /g' -e 's/ and / /g' -e 's/ to / /g' -e 's/ a / /g' -e 's/ is / /g' -e 's/ in / /g' -e 's/ I / /g' -e '[1@s[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+You Persevered ..! MyBigFatGreekWedding one my hubby’s favorite films. Keep writing. Keep believing yourself. Congrats on ur persistence!
+Ugh.  No one wants look at your face. corruption
+Gag. Just bunch losers reminiscing about losing last election. racists homophobes
+"My goodness!! You must live heaven. Just think all problems across world number one problem you tweet about mill your coffee. My goodness, aren’t you privileged little princess. gay gay gay gay @ChristinaPushaw"
+Just followed. Hope you had good FBPE FollowBackFriday 🙏
+Just followed. Hope you both had good FBPE FollowBackFriday 👏
+Just followed back.  Hope you had good FBPE FollowBackFriday 🙏
+Just followed back Nicola.  Hope you had good FBPE FollowBackFriday 🙏
+Just followed Diana.  Hope you had good FBPE FollowBackFriday 🙏
+Just followed Sue.  Hope you had good FBPE FollowBackFriday 🙏
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ awk -F "\t" '{print $8}' *NOBOTS.tsv | sed -e 's/@[A-Za-z0-9]* //g' | sed 's/#//g' | sed -e 's/ the / /g' -e 's/ of / /g' -e 's/ and / /g' -e 's/ to / /g' -e 's/ a / /g' -e 's/ is / /g' -e 's/ in / /g' -e 's/ I / /g' -e ''s/ that / /g' -e 's/ it / /g' -e 's/ this / /g' -e 's/ for / /g' | head [K[K[K[K[K[K[K> a6_5temp;[Kt[K.txt
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ cat a6_5temp.txt | wc -l
+7759
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ 
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ cat a6_5temp.txt | tr -c '[:alnum:]' '[\n*]' | sort | uniq -c | sort -rn -k1 | head -50[1P080
+   1275 https
+   1215 amp
+   1050 are
+    959 good
+    884 FBPE
+    875 FollowBackFriday
+    874 on
+    810 with
+    777 followed
+    740 Just
+    740 have
+    694 be
+    655 not
+    628 Have
+    575 The
+    523 they
+    479 from
+    458 about
+    454 as
+    452 had
+    440 all
+    434 I
+    429 PutinHitler
+    419 by
+    415 has
+    414 we
+    406 your
+    405 was
+    401 will
+    399 people
+    390 You
+    389 an
+    383 at
+    380 back
+    377 can
+    366 who
+    366 It
+    365 Ford
+    359 just
+    340 or
+    338 StandWithUkraine
+    338 so
+    337 re
+    333 it
+    329 his
+    327 what
+    314 but
+    313 he
+    312 out
+    310 their
+    300 more
+    299 We
+    294 up
+    294 do
+    287 Canada
+    281 COVID19
+    277 no
+    277 like
+    265 me
+    261 been
+    243 our
+    241 now
+    234 This
+    234 get
+    231 Ontario
+    219 against
+    219 2
+    216 StopPutinNOW
+    214 would
+    211 RussiaSanctions
+    209 need
+    207 BoycottRussia
+    205 bot
+    203 them
+    200 one
+]0;obeda@sjsu:/mnt/scratch/obeda/assignments/a6[obeda@sjsu a6]$ exit
+
+Script done on 2022-12-07 13:23:38-05:00
